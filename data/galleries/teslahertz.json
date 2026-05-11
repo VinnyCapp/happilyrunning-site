@@ -1,0 +1,12 @@
+{
+  "_meta": { "description": "Placeholder gallery data using typedream-raw photos." },
+  "album_url": null,
+  "photos": [
+    { "thumb": "/assets/img/typedream-raw/teslahertz-01.jpg", "full": "/assets/img/typedream-raw/teslahertz-01.jpg" },
+    { "thumb": "/assets/img/typedream-raw/teslahertz-02.jpg", "full": "/assets/img/typedream-raw/teslahertz-02.jpg" },
+    { "thumb": "/assets/img/typedream-raw/teslahertz-03.jpg", "full": "/assets/img/typedream-raw/teslahertz-03.jpg" },
+    { "thumb": "/assets/img/typedream-raw/teslahertz-04.jpg", "full": "/assets/img/typedream-raw/teslahertz-04.jpg" },
+    { "thumb": "/assets/img/typedream-raw/teslahertz-05.jpg", "full": "/assets/img/typedream-raw/teslahertz-05.jpg" },
+    { "thumb": "/assets/img/typedream-raw/teslahertz-06.jpg", "full": "/assets/img/typedream-raw/teslahertz-06.jpg" }
+  ]
+}

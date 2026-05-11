@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <text x="20" y="60" font-family="Alfa Slab One, serif" font-size="52" letter-spacing="-1.4" fill="#f0ece0">happily</text>
+  <text x="260" y="60" font-family="Alfa Slab One, serif" font-size="52" letter-spacing="-1.4" fill="#c49a5c">running</text>
+  <path d="M 20 82 L 90 78 L 160 80 L 230 72 L 300 76 L 370 74 L 440 78 L 510 76 L 580 74"
+        fill="none" stroke="#f0ece0" stroke-width="4.5" stroke-linecap="butt" stroke-dasharray="12 9"/>
+  <circle cx="300" cy="76" r="3.5" fill="#c49a5c"/>
+  <text x="20" y="102" font-family="JetBrains Mono, monospace" font-size="9" font-weight="600" letter-spacing="3" fill="#8fa891">HOW ARE YOU RUNNING?</text>
+</svg>

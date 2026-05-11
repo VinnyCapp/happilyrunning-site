@@ -1,0 +1,13 @@
+{
+  "_meta": { "description": "Placeholder gallery data using typedream-raw photos." },
+  "album_url": null,
+  "photos": [
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-01.jpg", "full": "/assets/img/typedream-raw/virgilcrest-01.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-02.jpg", "full": "/assets/img/typedream-raw/virgilcrest-02.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-03.jpg", "full": "/assets/img/typedream-raw/virgilcrest-03.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-04.jpg", "full": "/assets/img/typedream-raw/virgilcrest-04.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-05.jpg", "full": "/assets/img/typedream-raw/virgilcrest-05.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-06.jpg", "full": "/assets/img/typedream-raw/virgilcrest-06.jpg" },
+    { "thumb": "/assets/img/typedream-raw/virgilcrest-07.jpg", "full": "/assets/img/typedream-raw/virgilcrest-07.jpg" }
+  ]
+}

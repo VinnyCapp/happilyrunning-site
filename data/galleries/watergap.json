@@ -1,0 +1,10 @@
+{
+  "_meta": { "description": "Placeholder gallery data using typedream-raw photos." },
+  "album_url": null,
+  "photos": [
+    { "thumb": "/assets/img/typedream-raw/watergap-01.jpg", "full": "/assets/img/typedream-raw/watergap-01.jpg" },
+    { "thumb": "/assets/img/typedream-raw/watergap-02.jpg", "full": "/assets/img/typedream-raw/watergap-02.jpg" },
+    { "thumb": "/assets/img/typedream-raw/watergap-03.jpg", "full": "/assets/img/typedream-raw/watergap-03.jpg" },
+    { "thumb": "/assets/img/typedream-raw/watergap-04.jpg", "full": "/assets/img/typedream-raw/watergap-04.jpg" }
+  ]
+}
