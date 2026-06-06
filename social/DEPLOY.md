@@ -78,15 +78,20 @@ sudo systemctl restart cloudflared
 ## 4. Cloudflare Access (the auth gate)
 
 Access apps are configured in the **Zero Trust dashboard** (or API/Terraform), not
-in `config.yml`:
+in `config.yml`. Current dashboard nav:
 
-1. Zero Trust → **Access → Applications → Add an application → Self-hosted**
-2. Application domain: `social.vinnycapp.com`
-3. Add a policy — Action **Allow**, Include → **Emails**:
+1. Zero Trust → **Access controls → Applications → Add an application → Self-hosted**
+2. Application (public hostname): `social.vinnycapp.com`
+3. Add a policy — Action **Allow**, Session duration to taste, Rule → Include →
+   **Emails**:
    - `vinny@happilyrunning.com`
    - `me@vinnycapp.com`
    - `nichole@happilyrunning.com`
 4. Save.
+
+> Tip: you can instead build the policy once under **Access controls → Policies**
+> and reuse it across apps. `cloudflared tunnel route dns` only creates the DNS
+> CNAME — it does **not** create the Access app, so this step is required for auth.
 
 Now visit `https://social.vinnycapp.com` from anywhere — you'll get the Access
 login, then the dashboard.
