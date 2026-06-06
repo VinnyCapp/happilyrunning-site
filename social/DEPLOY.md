@@ -1,21 +1,28 @@
 # Deploying hr-social on the Dell
 
-Run these **on the Dell** (Ubuntu 24.04, `192.168.68.103`). Tunnel ID is
-`e60d22e1-4262-4b16-a0b3-d8d03aa839da` (the existing `vinnycapp.com` tunnel).
+Matches the Dell's conventions (see `dell-server-reference.md`): apps live in
+`/home/vin/<name>/`, run under PM2 (`pm2-vin.service` → `pm2 resurrect`), and the
+tunnel is **locally-managed** via `/etc/cloudflared/config.yml` (tunnel `dell-ssh`,
+systemd).
 
 End state: `https://social.vinnycapp.com` → Cloudflare Access login → dashboard,
-served from `localhost:3955`.
+served from `localhost:3955`. Port 3955 is free (next above the 3950–3953 cluster).
 
 ---
 
-## 1. Install + configure env
+## 1. Put the service in place
+
+Convention is one dir per service under `/home/vin/`:
 
 ```bash
-cd ~/path/to/happilyrunning-site/social   # wherever the repo lives on the Dell
+# copy the social/ folder out of the repo to its own service dir
+mkdir -p /home/vin/hr-social
+cp -r <repo>/social/. /home/vin/hr-social/
+cd /home/vin/hr-social
 npm install --omit=dev
 
 cp .env.example .env
-nano .env                                  # fill in the values below
+nano .env                                  # fill in (see below)
 ```
 
 In `.env` set at minimum:
@@ -28,34 +35,39 @@ HR_TOKEN_HAPPILYRUNNING=<long-lived Graph token>
 HR_SOCIAL_DRY_RUN=1
 ```
 
-> Keep `HR_SOCIAL_HOST=127.0.0.1` (the default). The app must stay on localhost —
-> Cloudflare Access is the only auth gate.
+> Keep `HR_SOCIAL_HOST=127.0.0.1` (default). The app stays on localhost; Cloudflare
+> Access is the only auth gate. `.env` is loaded by Node's `--env-file`, so secrets
+> never enter the PM2 dump.
 
-## 2. Start under PM2
-
-Node 22 loads the `.env` natively via `--env-file`, so secrets stay out of PM2's
-saved process list:
+## 2. Start under PM2 (and `pm2 save` — this is the critical step)
 
 ```bash
-# back up any existing build first (infra rule)
-cp hr-social.mjs hr-social.mjs.bak-$(date +%Y%m%d) 2>/dev/null || true
-
+cd /home/vin/hr-social
 pm2 start hr-social.mjs --name hr-social --node-args="--env-file=.env"
-pm2 save
-pm2 logs hr-social --lines 20      # expect: "listening on http://127.0.0.1:3955 [DRY RUN]"
+pm2 save                                   # re-snapshots the dump so it survives reboot
+pm2 logs hr-social --lines 20              # expect: "listening on http://127.0.0.1:3955 [DRY RUN]"
 ```
 
-Quick local check (still on the Dell):
+Confirm the app is up (this isolates "app running" from "tunnel routing"):
 
 ```bash
 curl -s http://127.0.0.1:3955/health | head -c 300
 ```
 
-## 3. Cloudflare Tunnel route
+> If Node on the Dell predates v20.6, `--env-file` won't exist — in that case
+> `set -a; . ./.env; set +a` before `pm2 start`, or add an `env_file` to an
+> ecosystem config. Check with `node -v`.
 
-Add an ingress rule to the cloudflared config (usually
-`/etc/cloudflared/config.yml` or `~/.cloudflared/config.yml`). It belongs **above**
-the catch-all `service: http_status:404` rule:
+## 3. Tunnel route — in config.yml on the Dell (NOT the dashboard)
+
+This tunnel is locally-managed, so routing lives in the config file, same as every
+other vhost. Add the hostname/service block **above** the catch-all
+`http_status:404` rule:
+
+```bash
+sudo cp /etc/cloudflared/config.yml /etc/cloudflared/config.yml.backup-$(date +%Y%m%d)
+sudoedit /etc/cloudflared/config.yml
+```
 
 ```yaml
 ingress:
@@ -66,67 +78,77 @@ ingress:
   - service: http_status:404
 ```
 
-Create the DNS record for the tunnel and restart:
+Register the DNS CNAME (by tunnel **name**) and restart:
 
 ```bash
-cloudflared tunnel route dns e60d22e1-4262-4b16-a0b3-d8d03aa839da social.vinnycapp.com
+cloudflared tunnel route dns dell-ssh social.vinnycapp.com
 sudo systemctl restart cloudflared
 ```
 
 (If `route dns` says the record already exists, that's fine — just restart.)
 
-## 4. Cloudflare Access (the auth gate)
+## 4. Cloudflare Access (the auth gate — dashboard)
 
-Access apps are configured in the **Zero Trust dashboard** (or API/Terraform), not
-in `config.yml`. Current dashboard nav:
+The Access **application** is the *only* part that belongs in the dashboard. It must
+target the **public hostname only** — do **not** add a private/`localhost:3955`
+destination (that's the tunnel's job, done in step 3).
 
 1. Zero Trust → **Access controls → Applications → Add an application → Self-hosted**
-2. Application (public hostname): `social.vinnycapp.com`
-3. Add a policy — Action **Allow**, Session duration to taste, Rule → Include →
-   **Emails**:
+2. Public hostname: `social.vinnycapp.com`
+3. Policy — Action **Allow**, Rule → Include → **Emails**:
    - `vinny@happilyrunning.com`
    - `me@vinnycapp.com`
    - `nichole@happilyrunning.com`
-4. Save.
-
-> Tip: you can instead build the policy once under **Access controls → Policies**
-> and reuse it across apps. `cloudflared tunnel route dns` only creates the DNS
-> CNAME — it does **not** create the Access app, so this step is required for auth.
-
-Now visit `https://social.vinnycapp.com` from anywhere — you'll get the Access
-login, then the dashboard.
+4. Save. The app's destinations should be just:
+   ```json
+   "destinations": [ { "type": "public", "uri": "social.vinnycapp.com", "zone_name": "vinnycapp.com" } ]
+   ```
 
 ## 5. First real post, then go live
 
-1. With `HR_SOCIAL_DRY_RUN=1`, attach an image to one draft, approve it, and watch
-   it "fire" in the activity log (no real API call).
-2. Set `HR_SOCIAL_DRY_RUN=0` in `.env`, then:
-   ```bash
-   pm2 restart hr-social --update-env
-   ```
-3. Walk one real post through approve → fire and confirm it lands on the account
-   before drafting a full week.
+1. With `HR_SOCIAL_DRY_RUN=1`, attach an image to one draft, approve it, watch it
+   "fire" in the activity log (no real API call).
+2. Set `HR_SOCIAL_DRY_RUN=0` in `.env`, then `pm2 restart hr-social --update-env`.
+3. Walk one real post through approve → fire and confirm it lands before drafting a
+   full week.
 
 ## Updating later
 
 ```bash
-git pull
-cp hr-social.mjs hr-social.mjs.bak-$(date +%Y%m%d) 2>/dev/null || true   # backup before overwrite
+cd /home/vin/hr-social
+cp hr-social.mjs hr-social.mjs.bak-$(date +%Y%m%d)   # backup before overwrite
+# pull/copy the new files, then:
 npm install --omit=dev
 pm2 restart hr-social --update-env
 ```
 
 ---
 
-## Paste into `dell-server-reference.md`
+## Append to `dell-server-reference.md` (matches the existing entry format)
 
 ```md
-### hr-social — Happily Running social publisher
-- Port: 3955 (binds 127.0.0.1)
-- Domain: https://social.vinnycapp.com
-- PM2 name: hr-social  (start: pm2 start hr-social.mjs --name hr-social --node-args="--env-file=.env")
-- Tunnel: e60d22e1-4262-4b16-a0b3-d8d03aa839da — ingress social.vinnycapp.com → http://localhost:3955
-- Cloudflare Access: app on social.vinnycapp.com, allow vinny@happilyrunning.com, me@vinnycapp.com, nichole@happilyrunning.com
-- Code/data: <repo>/social/  (state in social/hr-social.data.json — not in git)
-- Health: https://social.vinnycapp.com/health
+### hr-social — Happily Running social publisher (added 2026-06-06)
+Drafts/approves/schedules and posts to Instagram & Facebook with a two-switch
+(approval + pause) safety model.
+- Service: social.vinnycapp.com (port 3955, PM2 'hr-social', /home/vin/hr-social/hr-social.mjs)
+- Stack: Node (ESM, no framework), atomic JSON store, one dep @anthropic-ai/sdk (drafting only)
+- Architecture: single hr-social.mjs = HTTP server + 60s cron + Meta Graph publishing;
+  dashboard.html served at /; state in hr-social.data.json (gitignored)
+- Safety: posts fire only when approved && !paused && due && !posted; edits revert
+  approval; no-image drafts can't be approved; missed/failed surface loudly; manual Retry
+- Endpoints: / (dashboard), /health, /api/posts, /api/draft,
+  /api/posts/:id/{approve,unapprove,pause,unpause,retry,post-now}
+- Env: ANTHROPIC_API_KEY, HR_SOCIAL_ACCOUNTS (JSON), HR_TOKEN_<KEY> (Graph token),
+  HR_SOCIAL_DRY_RUN; loaded via --node-args="--env-file=.env"
+- Tunnel: hostname social.vinnycapp.com → http://localhost:3955 in /etc/cloudflared/config.yml
+  (route: cloudflared tunnel route dns dell-ssh social.vinnycapp.com)
+- Access: Zero Trust self-hosted app on social.vinnycapp.com — allow
+  vinny@happilyrunning.com, me@vinnycapp.com, nichole@happilyrunning.com
+- Deploy: pm2 start hr-social.mjs --name hr-social --node-args="--env-file=.env" && pm2 save
+```
+
+Add the row to the hostname→port table:
+
+```md
+| social.vinnycapp.com | http://localhost:3955 | HR Social (publisher) |
 ```

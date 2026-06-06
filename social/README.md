@@ -95,7 +95,10 @@ pm2 save
 
 - **dell-server-reference.md:** add the `hr-social` entry — port 3955,
   `social.vinnycapp.com`, PM2 name `hr-social`, tunnel route, Cloudflare Access entry.
-- **Cloudflare Tunnel:** route `social.vinnycapp.com → http://localhost:3955`.
+- **Cloudflare Tunnel (locally-managed):** add the ingress block to
+  `/etc/cloudflared/config.yml` and run
+  `cloudflared tunnel route dns dell-ssh social.vinnycapp.com` — routing is **not**
+  done in the dashboard. See [DEPLOY.md](./DEPLOY.md).
 - **Cloudflare Access:** add `social.vinnycapp.com` (allowed:
   `vinny@happilyrunning.com`, `me@vinnycapp.com`, `nichole@happilyrunning.com`).
   Access is the only auth gate — the app binds to localhost and trusts the tunnel.
