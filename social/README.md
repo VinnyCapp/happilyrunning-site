@@ -80,11 +80,14 @@ All calls are POST. (The Graph API Explorer defaults to GET — GET on `/media`
 
 ## Deploy on the Dell
 
+Full step-by-step (PM2 + Cloudflare tunnel route + Access) is in **[DEPLOY.md](./DEPLOY.md)**.
+Short version:
+
 ```bash
 # back up the current build before overwriting
 cp hr-social.mjs hr-social.mjs.bak-$(date +%Y%m%d) 2>/dev/null || true
 npm install --omit=dev
-pm2 start hr-social.mjs --name hr-social --update-env
+pm2 start hr-social.mjs --name hr-social --node-args="--env-file=.env"
 pm2 save
 ```
 
