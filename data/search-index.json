@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "shore2shore-0",
+    "title": "Course",
+    "body": "Point-to-point",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "course point-to-point"
+  },
+  {
+    "id": "shore2shore-1",
+    "title": "Elevation",
+    "body": "~1,200 ft (50K)",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "elevation ~1,200 ft (50k)"
+  },
+  {
+    "id": "shore2shore-2",
+    "title": "Registration",
+    "body": "Opens Sept 1, 2026",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "registration opens sept 1, 2026"
+  },
+  {
+    "id": "shore2shore-3",
+    "title": "6:30 AM",
+    "body": "50K bus leaves finish area",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "6:30 am 50k bus leaves finish area"
+  },
+  {
+    "id": "shore2shore-4",
+    "title": "7:00 AM",
+    "body": "50K packet pickup (at start)",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "7:00 am 50k packet pickup (at start)"
+  },
+  {
+    "id": "shore2shore-5",
+    "title": "8:30 AM",
+    "body": "25K bus leaves finish area",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "8:30 am 25k bus leaves finish area"
+  },
+  {
+    "id": "shore2shore-6",
+    "title": "9:00 AM",
+    "body": "25K packet pickup (at start)",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "faq",
+    "_search": "9:00 am 25k packet pickup (at start)"
+  },
+  {
+    "id": "shore2shore-7",
+    "title": "The Race",
+    "body": "Shore2Shore is a point-to-point 50K and 25K on the full length of the Suffolk County Long Island Greenbelt Trail — one of the best-kept secrets in Northeast trail running.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "the race shore2shore is a point-to-point 50k and 25k on the full length of the suffolk county long island greenbelt trail — one of the best-kept secrets in northeast trail running."
+  },
+  {
+    "id": "shore2shore-8",
+    "title": "Course",
+    "body": "50K Elevation ~1,200 ft Most climbing in the northern 10 miles",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "course 50k elevation ~1,200 ft most climbing in the northern 10 miles"
+  },
+  {
+    "id": "shore2shore-9",
+    "title": "Race Day Schedule",
+    "body": "6:30 AM 50K bus leaves finish area 7:00 AM 50K packet pickup (at start) 8:00 AM 50K start 8:30 AM 25K bus leaves finish area 9:00 AM 25K packet pickup (at start) 10:00 AM 25K start Packet Pickup Pickup is available at Smithtown Running Co. — 91 E Main St, Smithtown, NY 11787 — on Thursday and Friday before the race.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "race day schedule 6:30 am 50k bus leaves finish area 7:00 am 50k packet pickup (at start) 8:00 am 50k start 8:30 am 25k bus leaves finish area 9:00 am 25k packet pickup (at start) 10:00 am 25k start packet pickup pickup is available at smithtown running co. — 91 e main st, smithtown, ny 11787 — on thursday and friday before the race."
+  },
+  {
+    "id": "shore2shore-10",
+    "title": "Buses & Parking",
+    "body": "Parking is at the finish (Heckscher State Park). Buy a bus ticket and we shuttle you to the start line. You're welcome to have someone drop you off at the start instead — we'll check in all participants at the start before race time.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "buses & parking parking is at the finish (heckscher state park). buy a bus ticket and we shuttle you to the start line. you're welcome to have someone drop you off at the start instead — we'll check in all participants at the start before race time."
+  },
+  {
+    "id": "shore2shore-11",
+    "title": "Aid Stations",
+    "body": "Five fully stocked aid stations, each one more loaded than the last. We use Skratch Labs on course, plus PB&J, snacks, candy, fruit, and whatever else keeps you moving. 50K runners get drop bags at AS3 and the Finish — label them with your name, bib number, and drop location.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "aid stations five fully stocked aid stations, each one more loaded than the last. we use skratch labs on course, plus pb&j, snacks, candy, fruit, and whatever else keeps you moving. 50k runners get drop bags at as3 and the finish — label them with your name, bib number, and drop location."
+  },
+  {
+    "id": "shore2shore-12",
+    "title": "Race Day Map",
+    "body": "All the pins you need — bus pickup, start lines, aid stations, parking, restrooms. Open in Google Maps for navigation.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "race day map all the pins you need — bus pickup, start lines, aid stations, parking, restrooms. open in google maps for navigation."
+  },
+  {
+    "id": "shore2shore-13",
+    "title": "Crews & Pacers",
+    "body": "All crew and pacer actions are the runner's responsibility. Runners must make sure their crew knows the rules — if they're broken, it can mean a DQ, or course removal of the runner and crew. We'll post a detailed crew-access map with each aid station as race week approaches.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "crews & pacers all crew and pacer actions are the runner's responsibility. runners must make sure their crew knows the rules — if they're broken, it can mean a dq, or course removal of the runner and crew. we'll post a detailed crew-access map with each aid station as race week approaches."
+  },
+  {
+    "id": "shore2shore-14",
+    "title": "Trail Work — Give Back",
+    "body": "We want our races to give back to the trails. Part of your entry is to do one of three things between sign-up and April 1:",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "trail work — give back we want our races to give back to the trails. part of your entry is to do one of three things between sign-up and april 1:"
+  },
+  {
+    "id": "shore2shore-15",
+    "title": "Live Tracking — Race Day",
+    "body": "Live tracking will be available on race day. We'll share details by email in the lead-up to the race.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "live tracking — race day live tracking will be available on race day. we'll share details by email in the lead-up to the race."
+  },
+  {
+    "id": "shore2shore-16",
+    "title": "Past Results",
+    "body": "Full event results through UltraSignup — going back to 2019.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "past results full event results through ultrasignup — going back to 2019."
+  },
+  {
+    "id": "shore2shore-17",
+    "title": "Shore2Shore",
+    "body": "Photos from past runnings. Tap any image to expand.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "section",
+    "_search": "shore2shore photos from past runnings. tap any image to expand."
+  },
+  {
+    "id": "shore2shore-18",
+    "title": "Can I change distances?",
+    "body": "Yes, up until Wednesday before the race. Go to UltraSignup → Account → Registration History → \"Edit\" next to your race. Direct link here → After Wednesday before the race, you can change distances on race day with us.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "can i change distances? yes, up until wednesday before the race. go to ultrasignup → account → registration history → \"edit\" next to your race. direct link here → after wednesday before the race, you can change distances on race day with us."
+  },
+  {
+    "id": "shore2shore-19",
+    "title": "When can I pick up my bib?",
+    "body": "Thursday (3–7 PM) or Friday (11 AM–5 PM) at Smithtown Running Co. You can also pick up race morning at your start location before the bus leaves.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "when can i pick up my bib? thursday (3–7 pm) or friday (11 am–5 pm) at smithtown running co. you can also pick up race morning at your start location before the bus leaves."
+  },
+  {
+    "id": "shore2shore-20",
+    "title": "Do you offer drop-downs?",
+    "body": "Yes. If you're doing the 50K and need to drop to 25K at the common finish point, you'll get an unofficial 25K time. Please tell the aid station captain so we can account for you on course.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "do you offer drop-downs? yes. if you're doing the 50k and need to drop to 25k at the common finish point, you'll get an unofficial 25k time. please tell the aid station captain so we can account for you on course."
+  },
+  {
+    "id": "shore2shore-21",
+    "title": "What's the deal with bathrooms on course?",
+    "body": "Port-o-potties at major aid stations and the start/finish. A handful of natural \"woods opportunities\" between — bring your own toilet paper. Please respect the trail and pack out what you pack in.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "what's the deal with bathrooms on course? port-o-potties at major aid stations and the start/finish. a handful of natural \"woods opportunities\" between — bring your own toilet paper. please respect the trail and pack out what you pack in."
+  },
+  {
+    "id": "shore2shore-22",
+    "title": "Can I pick up someone else's bib or packet?",
+    "body": "Yes — but you need their printed and signed waiver . We don't accept a copy, a screenshot, or a photo. It has to be the physical signed paper.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "can i pick up someone else's bib or packet? yes — but you need their printed and signed waiver . we don't accept a copy, a screenshot, or a photo. it has to be the physical signed paper."
+  },
+  {
+    "id": "shore2shore-23",
+    "title": "What happens if I don't complete my trail work hours?",
+    "body": "You have the option of a buy-out: a $20+ donation to the LI Greenbelt . If you do neither — no hours and no donation — you can't run. It's part of your entry. If circumstances make it genuinely impossible, reach out at races@happilyrunning.com and we can work something out.",
+    "source_label": "Shore2Shore",
+    "source_url": "/races/shore2shore",
+    "race_slug": "shore2shore",
+    "type": "details",
+    "_search": "what happens if i don't complete my trail work hours? you have the option of a buy-out: a $20+ donation to the li greenbelt . if you do neither — no hours and no donation — you can't run. it's part of your entry. if circumstances make it genuinely impossible, reach out at races@happilyrunning.com and we can work something out."
+  },
+  {
+    "id": "virgilcrest-0",
+    "title": "Distances",
+    "body": "100M · 100M Relay · 50M · 50K",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "distances 100m · 100m relay · 50m · 50k"
+  },
+  {
+    "id": "virgilcrest-1",
+    "title": "Start",
+    "body": "6:00 AM (100M/50M)",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "start 6:00 am (100m/50m)"
+  },
+  {
+    "id": "virgilcrest-2",
+    "title": "5:00 AM",
+    "body": "Packet pickup opens",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "5:00 am packet pickup opens"
+  },
+  {
+    "id": "virgilcrest-3",
+    "title": "6:00 AM",
+    "body": "100 Miler start",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "6:00 am 100 miler start"
+  },
+  {
+    "id": "virgilcrest-4",
+    "title": "6:00 AM",
+    "body": "50 Miler start",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "6:00 am 50 miler start"
+  },
+  {
+    "id": "virgilcrest-5",
+    "title": "10:00 AM",
+    "body": "100 Mile Relay start",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "10:00 am 100 mile relay start"
+  },
+  {
+    "id": "virgilcrest-6",
+    "title": "+36 hr",
+    "body": "100M cut-off",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "faq",
+    "_search": "+36 hr 100m cut-off"
+  },
+  {
+    "id": "virgilcrest-7",
+    "title": "The Race",
+    "body": "Virgil Crest is one of the Northeast's most respected ultras — now in our hands. We're carrying forward the tradition Ian started, which means the course will be different from years prior. Finger Lakes ridgelines. Relentless climbs. One of the most satisfying finish lines in the region.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "the race virgil crest is one of the northeast's most respected ultras — now in our hands. we're carrying forward the tradition ian started, which means the course will be different from years prior. finger lakes ridgelines. relentless climbs. one of the most satisfying finish lines in the region."
+  },
+  {
+    "id": "virgilcrest-8",
+    "title": "Race Day Schedule",
+    "body": "5:00 AM Packet pickup opens 6:00 AM 100 Miler start 6:00 AM 50 Miler start 8:00 AM 50K start 10:00 AM 100 Mile Relay start +36 hr 100M cut-off Aid Stations Three stocked aid stations, each with Hylē Hydration and Huma Gels plus the usual ultra staples — PB&J, pretzels, chips, candy, fruit, broth, and perogies. As the day goes on we bring in pizza, burgers, hot dogs. We take requests and do our best to accommodate vegan and gluten-free runners.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "race day schedule 5:00 am packet pickup opens 6:00 am 100 miler start 6:00 am 50 miler start 8:00 am 50k start 10:00 am 100 mile relay start +36 hr 100m cut-off aid stations three stocked aid stations, each with hylē hydration and huma gels plus the usual ultra staples — pb&j, pretzels, chips, candy, fruit, broth, and perogies. as the day goes on we bring in pizza, burgers, hot dogs. we take requests and do our best to accommodate vegan and gluten-free runners."
+  },
+  {
+    "id": "virgilcrest-9",
+    "title": "Swag",
+    "body": "Virgil has a history of cool, locally sourced finishers giveaways — those will be in the mix. Expect something snazzy. Details posted as they're finalized.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "swag virgil has a history of cool, locally sourced finishers giveaways — those will be in the mix. expect something snazzy. details posted as they're finalized."
+  },
+  {
+    "id": "virgilcrest-10",
+    "title": "Pacers & Poles",
+    "body": "100 Mile entrants get pacers at or after 50 miles, or nightfall. Poles are fair game for everyone — in 2021, anyone past 50 miles found them a game-changer. One rule: poles must fit in a drop bag if you're leaving them at an aid station for transport.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "pacers & poles 100 mile entrants get pacers at or after 50 miles, or nightfall. poles are fair game for everyone — in 2021, anyone past 50 miles found them a game-changer. one rule: poles must fit in a drop bag if you're leaving them at an aid station for transport."
+  },
+  {
+    "id": "virgilcrest-11",
+    "title": "Crew Info",
+    "body": "We're working hard to make sure the stations are crew accessible. The Start/Finish is confirmed for crew access, and there will be at least one additional station throughout the course. Updates coming. All crew and pacer actions are the runner's responsibility — runners must make sure their crew knows the rules.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "crew info we're working hard to make sure the stations are crew accessible. the start/finish is confirmed for crew access, and there will be at least one additional station throughout the course. updates coming. all crew and pacer actions are the runner's responsibility — runners must make sure their crew knows the rules."
+  },
+  {
+    "id": "virgilcrest-12",
+    "title": "Live Tracking — Race Day",
+    "body": "Follow runners in real time during the race at virgilcrest.happilyrunning.com/live. We'll post the link here when it goes live.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "live tracking — race day follow runners in real time during the race at virgilcrest.happilyrunning.com/live. we'll post the link here when it goes live."
+  },
+  {
+    "id": "virgilcrest-13",
+    "title": "Past Results",
+    "body": "Full event results from every year we've run Virgil Crest — going back to 2008.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "past results full event results from every year we've run virgil crest — going back to 2008."
+  },
+  {
+    "id": "virgilcrest-14",
+    "title": "Virgil Crest Ultras",
+    "body": "Photos from past runnings. Tap any image to expand.",
+    "source_label": "Virgil Crest",
+    "source_url": "/races/virgilcrest",
+    "race_slug": "virgilcrest",
+    "type": "section",
+    "_search": "virgil crest ultras photos from past runnings. tap any image to expand."
+  },
+  {
+    "id": "teslahertz-0",
+    "title": "Loop",
+    "body": "10.48 miles",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "faq",
+    "_search": "loop 10.48 miles"
+  },
+  {
+    "id": "teslahertz-1",
+    "title": "Surface",
+    "body": "99.9% trail",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "faq",
+    "_search": "surface 99.9% trail"
+  },
+  {
+    "id": "teslahertz-2",
+    "title": "Aid stations",
+    "body": "2 per loop",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "faq",
+    "_search": "aid stations 2 per loop"
+  },
+  {
+    "id": "teslahertz-3",
+    "title": "The Race",
+    "body": "The course lives in one of the most beautiful pieces of Long Island — the Pine Barrens. A 10.48-mile loop with so little outside-world interaction you forget there's a world outside it. Just you, the trail, and two road crossings per loop.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "the race the course lives in one of the most beautiful pieces of long island — the pine barrens. a 10.48-mile loop with so little outside-world interaction you forget there's a world outside it. just you, the trail, and two road crossings per loop."
+  },
+  {
+    "id": "teslahertz-4",
+    "title": "A Word on Drop-Downs",
+    "body": "Whatever race you start, you must complete. Otherwise it's a DNF.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "a word on drop-downs whatever race you start, you must complete. otherwise it's a dnf."
+  },
+  {
+    "id": "teslahertz-5",
+    "title": "Course Map",
+    "body": "10.48-mile loop through the Pine Barrens. Full elevation profile and turn-by-turn coming soon.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "course map 10.48-mile loop through the pine barrens. full elevation profile and turn-by-turn coming soon."
+  },
+  {
+    "id": "teslahertz-6",
+    "title": "Aid Stations",
+    "body": "All Happily Running races are cupless Two aid stations on the loop. North Country at the start/finish, and Whiskey Girl at mile 5.5. Stocked with Skratch Labs hydration plus real food throughout the loop.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "aid stations all happily running races are cupless two aid stations on the loop. north country at the start/finish, and whiskey girl at mile 5.5. stocked with skratch labs hydration plus real food throughout the loop."
+  },
+  {
+    "id": "teslahertz-7",
+    "title": "Pacers",
+    "body": "All pacers need to wear pacer bracelets and sign their own waiver. Pacers are allowed 12 hours into a race, or during the dark hours, whichever comes first .",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "pacers all pacers need to wear pacer bracelets and sign their own waiver. pacers are allowed 12 hours into a race, or during the dark hours, whichever comes first ."
+  },
+  {
+    "id": "teslahertz-8",
+    "title": "Crew",
+    "body": "Crews are allowed at both aid stations. Depending on local rules, our permit, and total registration, we may restrict which distances can crew at Whiskey Girl.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "crew crews are allowed at both aid stations. depending on local rules, our permit, and total registration, we may restrict which distances can crew at whiskey girl."
+  },
+  {
+    "id": "teslahertz-9",
+    "title": "Parking",
+    "body": "There is no parking in the lot at the start/finish . Zero tolerance — your car will be towed.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "parking there is no parking in the lot at the start/finish . zero tolerance — your car will be towed."
+  },
+  {
+    "id": "teslahertz-10",
+    "title": "Past Results",
+    "body": "2025 2024 2023 2022 All years → Registration — Open Now Distances & Cut-offs 150 Miler 157.2 mi · 15 loops Fri 6 PM 60h cut-off 100 Miler 104.8 mi · 10 loops Sat 6 AM 48h cut-off 100K 62.88 mi · 6 loops Sat 7 AM 47h cut-off 50 Miler 52.4 mi · 5 loops Sat 7 AM 47h cut-off 50K Day 31.44 mi · 3 loops Sat 8 AM 46h cut-off 50K Night 31.44 mi · 3 loops Sat 8 PM 34h cut-off 10 Miler Night 10.48 mi · 1 loop Sat 8 PM 34h cut-off 10 Miler Day 10.48 mi · 1 loop Sun 10 AM 20h cut-off All races close Mon 6 AM",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "past results 2025 2024 2023 2022 all years → registration — open now distances & cut-offs 150 miler 157.2 mi · 15 loops fri 6 pm 60h cut-off 100 miler 104.8 mi · 10 loops sat 6 am 48h cut-off 100k 62.88 mi · 6 loops sat 7 am 47h cut-off 50 miler 52.4 mi · 5 loops sat 7 am 47h cut-off 50k day 31.44 mi · 3 loops sat 8 am 46h cut-off 50k night 31.44 mi · 3 loops sat 8 pm 34h cut-off 10 miler night 10.48 mi · 1 loop sat 8 pm 34h cut-off 10 miler day 10.48 mi · 1 loop sun 10 am 20h cut-off all races close mon 6 am"
+  },
+  {
+    "id": "teslahertz-11",
+    "title": "Lifetime Stats",
+    "body": "Every loop you've logged, every buckle within reach — look up your all-time Tesla Hertz numbers.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "lifetime stats every loop you've logged, every buckle within reach — look up your all-time tesla hertz numbers."
+  },
+  {
+    "id": "teslahertz-12",
+    "title": "Tesla Hertz Run",
+    "body": "Photos from past runnings. Tap any image to expand.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "section",
+    "_search": "tesla hertz run photos from past runnings. tap any image to expand."
+  },
+  {
+    "id": "teslahertz-14",
+    "title": "When can I arrive and set up my area?",
+    "body": "Depending on how many folks register, we'll stagger arrival based on your distance. Details will come in the race-week email.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "when can i arrive and set up my area? depending on how many folks register, we'll stagger arrival based on your distance. details will come in the race-week email."
+  },
+  {
+    "id": "teslahertz-15",
+    "title": "When can I pick up my bib?",
+    "body": "Check-in is 60 minutes before your start time. All you need is to grab your bib and shirt — don't stress timing. You can arrive up to 60 minutes before your start to set up an area, but bibs aren't available before then. If you're not running the 150 or 100 miler, please don't arrive before 5 AM.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "when can i pick up my bib? check-in is 60 minutes before your start time. all you need is to grab your bib and shirt — don't stress timing. you can arrive up to 60 minutes before your start to set up an area, but bibs aren't available before then. if you're not running the 150 or 100 miler, please don't arrive before 5 am."
+  },
+  {
+    "id": "teslahertz-16",
+    "title": "Hunters?",
+    "body": "It's the start of bow hunting season, so you may see a hunter or two in the woods. They know you're there. If you spot someone in camo holding a bow — you're not hallucinating.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "hunters? it's the start of bow hunting season, so you may see a hunter or two in the woods. they know you're there. if you spot someone in camo holding a bow — you're not hallucinating."
+  },
+  {
+    "id": "teslahertz-17",
+    "title": "Are there ticks out there?",
+    "body": "Yes. Long Island in October. Check yourself thoroughly after each loop, use permethrin-treated gear, and watch for symptoms in the weeks after.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "are there ticks out there? yes. long island in october. check yourself thoroughly after each loop, use permethrin-treated gear, and watch for symptoms in the weeks after."
+  },
+  {
+    "id": "teslahertz-18",
+    "title": "What's the deal with the port-o-potties?",
+    "body": "Both aid stations have them. There are no other bathrooms on course, so plan accordingly. Volunteer ask: the rental company won't move them in or out for us. If you're willing to move one off-site Monday after the race between 12–3 PM, we'll give you a free entry to any of our races. One entry per porto — there are two.",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "what's the deal with the port-o-potties? both aid stations have them. there are no other bathrooms on course, so plan accordingly. volunteer ask: the rental company won't move them in or out for us. if you're willing to move one off-site monday after the race between 12–3 pm, we'll give you a free entry to any of our races. one entry per porto — there are two."
+  },
+  {
+    "id": "teslahertz-19",
+    "title": "Can I bring my dog?",
+    "body": "We love well-behaved dogs. As long as they're on a leash and not around the actual aid station tables and tents, we're cool with it. Just remember there are a lot of people, smells, foods, and liquids around — and some folks aren't used to dogs. Keep your dog on a leash and close to you. Runners may not run with their dog on course. A message from Rook \"I wish I was there too.\"",
+    "source_label": "Tesla Hertz",
+    "source_url": "/races/teslahertz",
+    "race_slug": "teslahertz",
+    "type": "details",
+    "_search": "can i bring my dog? we love well-behaved dogs. as long as they're on a leash and not around the actual aid station tables and tents, we're cool with it. just remember there are a lot of people, smells, foods, and liquids around — and some folks aren't used to dogs. keep your dog on a leash and close to you. runners may not run with their dog on course. a message from rook \"i wish i was there too.\""
+  },
+  {
+    "id": "watergap-0",
+    "title": "Course",
+    "body": "Out-and-back",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "faq",
+    "_search": "course out-and-back"
+  },
+  {
+    "id": "watergap-1",
+    "title": "7:00 AM",
+    "body": "50K packet pickup",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "faq",
+    "_search": "7:00 am 50k packet pickup"
+  },
+  {
+    "id": "watergap-2",
+    "title": "9:30 AM",
+    "body": "25K packet pickup",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "faq",
+    "_search": "9:30 am 25k packet pickup"
+  },
+  {
+    "id": "watergap-3",
+    "title": "4:30 PM",
+    "body": "Course cut-off",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "faq",
+    "_search": "4:30 pm course cut-off"
+  },
+  {
+    "id": "watergap-4",
+    "title": "The Race",
+    "body": "The Delaware River, framed by thousand-foot hillsides. Steeped in Native and Early American history. In the mid-1900s this whole valley was slated for a hydroelectric dam — public resistance plus a geological fault line killed the project, and the land went to public hands as a National Recreation Area.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "the race the delaware river, framed by thousand-foot hillsides. steeped in native and early american history. in the mid-1900s this whole valley was slated for a hydroelectric dam — public resistance plus a geological fault line killed the project, and the land went to public hands as a national recreation area."
+  },
+  {
+    "id": "watergap-5",
+    "title": "Course",
+    "body": "We stage at Smithfield Beach. The course follows a short loop around the parking lot, then drops onto the McDade Trail and heads out and back. Marked with pink survey flags — sparse on the open trail, denser at turns and intersections. We'll give a full briefing race morning.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "course we stage at smithfield beach. the course follows a short loop around the parking lot, then drops onto the mcdade trail and heads out and back. marked with pink survey flags — sparse on the open trail, denser at turns and intersections. we'll give a full briefing race morning."
+  },
+  {
+    "id": "watergap-6",
+    "title": "Race Day Schedule",
+    "body": "7:00 AM 50K packet pickup 8:00 AM 50K start 9:30 AM 25K packet pickup 10:30 AM 25K start 4:30 PM Course cut-off Aid Stations Three aid stations on the course. Standard ultra fare — drinks, snacks, plus some Huma gels. Gel selection is limited since everyone prefers different brands, but there'll be enough.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "race day schedule 7:00 am 50k packet pickup 8:00 am 50k start 9:30 am 25k packet pickup 10:30 am 25k start 4:30 pm course cut-off aid stations three aid stations on the course. standard ultra fare — drinks, snacks, plus some huma gels. gel selection is limited since everyone prefers different brands, but there'll be enough."
+  },
+  {
+    "id": "watergap-7",
+    "title": "Race Day Map",
+    "body": "All the pins you need — aid stations, parking, turnarounds. Open in Google Maps for navigation.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "race day map all the pins you need — aid stations, parking, turnarounds. open in google maps for navigation."
+  },
+  {
+    "id": "watergap-8",
+    "title": "Drop Bags",
+    "body": "50K runners can drop bags at Bushkill Access — accessed at miles 8.5 and 22.9. Mark them with your bib number and last name. Drop them in the marked bins at Smithfield Beach before the 50K start.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "drop bags 50k runners can drop bags at bushkill access — accessed at miles 8.5 and 22.9. mark them with your bib number and last name. drop them in the marked bins at smithfield beach before the 50k start."
+  },
+  {
+    "id": "watergap-9",
+    "title": "Bathrooms",
+    "body": "Smithfield Beach (start/finish) has pit toilets and usually proper bathrooms — portos otherwise. Eshback Access also has pit toilets. Bring your own TP and respect the trail.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "bathrooms smithfield beach (start/finish) has pit toilets and usually proper bathrooms — portos otherwise. eshback access also has pit toilets. bring your own tp and respect the trail."
+  },
+  {
+    "id": "watergap-10",
+    "title": "Post-Race",
+    "body": "We're cooking — tacos (chicken or tofu), potatoes, black bean salad. Results posted by Sunday night, usually sooner.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "post-race we're cooking — tacos (chicken or tofu), potatoes, black bean salad. results posted by sunday night, usually sooner."
+  },
+  {
+    "id": "watergap-11",
+    "title": "What You Get",
+    "body": "Entry covers event production, a unique finisher's gift, post-race food, and an event T (sizes guaranteed if you register before September 1). Five dollars of every entry goes back to the folks who maintain the trails we're using.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "what you get entry covers event production, a unique finisher's gift, post-race food, and an event t (sizes guaranteed if you register before september 1). five dollars of every entry goes back to the folks who maintain the trails we're using."
+  },
+  {
+    "id": "watergap-14",
+    "title": "Water Gap 50K & Half",
+    "body": "Photos from past runnings. Tap any image to expand.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "water gap 50k & half photos from past runnings. tap any image to expand."
+  },
+  {
+    "id": "watergap-16",
+    "title": "When can I pick up my bib?",
+    "body": "Race morning — 7 AM for 50K, 9:30 AM for 25K. No pre-race pickup this year.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "details",
+    "_search": "when can i pick up my bib? race morning — 7 am for 50k, 9:30 am for 25k. no pre-race pickup this year."
+  },
+  {
+    "id": "watergap-17",
+    "title": "Do you offer race-day drop-downs?",
+    "body": "Yes. If you drop from 50K to 25K at the turnaround, you'll get an unofficial 25K time. Let the aid station captain know.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "details",
+    "_search": "do you offer race-day drop-downs? yes. if you drop from 50k to 25k at the turnaround, you'll get an unofficial 25k time. let the aid station captain know."
+  },
+  {
+    "id": "watergap-18",
+    "title": "What's the deal with bathrooms on course?",
+    "body": "Pit toilets or portos at the aid stations and the start/finish. Bring your own TP and respect the trail.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "details",
+    "_search": "what's the deal with bathrooms on course? pit toilets or portos at the aid stations and the start/finish. bring your own tp and respect the trail."
+  },
+  {
+    "id": "watergap-19",
+    "title": "Can I pick up someone else's bib?",
+    "body": "Yes — but you need their printed and signed waiver . Not a copy, not a screenshot, not a photo. Physical signed paper only.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "details",
+    "_search": "can i pick up someone else's bib? yes — but you need their printed and signed waiver . not a copy, not a screenshot, not a photo. physical signed paper only."
+  },
+  {
+    "id": "greekpeak-0",
+    "title": "Distances",
+    "body": "25K · 10K · 5K · 1K · Kids Mile",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "faq",
+    "_search": "distances 25k · 10k · 5k · 1k · kids mile"
+  },
+  {
+    "id": "greekpeak-1",
+    "title": "Starts",
+    "body": "Saturday 8 AM",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "faq",
+    "_search": "starts saturday 8 am"
+  },
+  {
+    "id": "greekpeak-2",
+    "title": "Venue",
+    "body": "Greek Peak Resort",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "faq",
+    "_search": "venue greek peak resort"
+  },
+  {
+    "id": "greekpeak-3",
+    "title": "The Festival",
+    "body": "Seasoned trail runner or first-timer, there's something on the mountain for you. Courses weave through woodland paths and climb the kind of hills that reward you with views of the surrounding peaks. Fun challenge, every skill level.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "the festival seasoned trail runner or first-timer, there's something on the mountain for you. courses weave through woodland paths and climb the kind of hills that reward you with views of the surrounding peaks. fun challenge, every skill level."
+  },
+  {
+    "id": "greekpeak-4",
+    "title": "Distances",
+    "body": "25K — $60.83 Twenty-five kilometers of mountain trail. You'll go up. You'll come down. You'll go up again. The exact course is TBD, but we promise you'll earn that finish-line beverage.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "distances 25k — $60.83 twenty-five kilometers of mountain trail. you'll go up. you'll come down. you'll go up again. the exact course is tbd, but we promise you'll earn that finish-line beverage."
+  },
+  {
+    "id": "greekpeak-5",
+    "title": "10K — $50.14",
+    "body": "A mountain-ish 10K. Two loops of the 5K course. It's not flat, it's not easy, but it's doable. At least one water stop near the top of the course.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "10k — $50.14 a mountain-ish 10k. two loops of the 5k course. it's not flat, it's not easy, but it's doable. at least one water stop near the top of the course."
+  },
+  {
+    "id": "greekpeak-6",
+    "title": "5K — $39.44",
+    "body": "A mountain-ish 5K. While it's only 3.1 miles, it's not flat, it's not easy — but it's doable for sure.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "5k — $39.44 a mountain-ish 5k. while it's only 3.1 miles, it's not flat, it's not easy — but it's doable for sure."
+  },
+  {
+    "id": "greekpeak-7",
+    "title": "Uphill 1K — $39.44",
+    "body": "Straight up Iliad, Greek Peak's steepest slope. 1K distance. 1K feet of gain. Get it. This is the final event of the weekend — run it fresh, or save your juice for one last push after another race.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "uphill 1k — $39.44 straight up iliad, greek peak's steepest slope. 1k distance. 1k feet of gain. get it. this is the final event of the weekend — run it fresh, or save your juice for one last push after another race."
+  },
+  {
+    "id": "greekpeak-8",
+    "title": "Doggo 5K — $39.44",
+    "body": "A canicross-style 5K with your dog. All dogs must be well-behaved, on leash, and under handler control. Muzzles allowed; face leads, flexi-leashes, and no-pull harnesses are not. Reactive dogs will be directed to a special parking area.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "doggo 5k — $39.44 a canicross-style 5k with your dog. all dogs must be well-behaved, on leash, and under handler control. muzzles allowed; face leads, flexi-leashes, and no-pull harnesses are not. reactive dogs will be directed to a special parking area."
+  },
+  {
+    "id": "greekpeak-9",
+    "title": "Night 10K / Night 5K",
+    "body": "Same as the day versions. Just in the dark. Headlamp required.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "night 10k / night 5k same as the day versions. just in the dark. headlamp required."
+  },
+  {
+    "id": "greekpeak-10",
+    "title": "1 Mile Kids Run — Free (12 and under)",
+    "body": "We want kids in on the fun. Course is well marked. No specific age for running alongside — if you're not comfortable with them running alone, go with them.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "1 mile kids run — free (12 and under) we want kids in on the fun. course is well marked. no specific age for running alongside — if you're not comfortable with them running alone, go with them."
+  },
+  {
+    "id": "greekpeak-11",
+    "title": "Après-Race",
+    "body": "When the running's done, the celebration moves to the base of the mountain. Trax Pub & Grill, local craft beer, and a deck that was built for swapping stories about the hills you just climbed.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "après-race when the running's done, the celebration moves to the base of the mountain. trax pub & grill, local craft beer, and a deck that was built for swapping stories about the hills you just climbed."
+  },
+  {
+    "id": "greekpeak-12",
+    "title": "Past Results",
+    "body": "2026 is the inaugural running — results will be posted after the event.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "past results 2026 is the inaugural running — results will be posted after the event."
+  },
+  {
+    "id": "greekpeak-13",
+    "title": "Greek Peak Festival",
+    "body": "Photos from past runnings. Tap any image to expand.",
+    "source_label": "Greek Peak",
+    "source_url": "/races/greekpeak",
+    "race_slug": "greekpeak",
+    "type": "section",
+    "_search": "greek peak festival photos from past runnings. tap any image to expand."
+  },
+  {
+    "id": "racetheghost-0",
+    "title": "The race",
+    "body": "5K out and back from Dryden Creamery on the Dryden Rail Trail. Flat, fast, easy. Run it, walk it, push a stroller, bring the dog. If the start time lands late enough that we need them, course markings will glow.",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "the race 5k out and back from dryden creamery on the dryden rail trail. flat, fast, easy. run it, walk it, push a stroller, bring the dog. if the start time lands late enough that we need them, course markings will glow."
+  },
+  {
+    "id": "racetheghost-1",
+    "title": "What's included",
+    "body": "A finisher cone from Dryden Creamery . That's the bib pickup. That's the post-race fuel. That's most of why we do this.",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "what's included a finisher cone from dryden creamery . that's the bib pickup. that's the post-race fuel. that's most of why we do this."
+  },
+  {
+    "id": "racetheghost-2",
+    "title": "Costume contest",
+    "body": "Awards in five categories, judged after the finish:",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "costume contest awards in five categories, judged after the finish:"
+  },
+  {
+    "id": "racetheghost-3",
+    "title": "When",
+    "body": "Halloween weekend 2026. Exact date and start time coming soon.",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "when halloween weekend 2026. exact date and start time coming soon."
+  },
+  {
+    "id": "racetheghost-4",
+    "title": "Where",
+    "body": "Start and finish at Dryden Creamery in Dryden, NY. See sidebar for the full address.",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "where start and finish at dryden creamery in dryden, ny. see sidebar for the full address."
+  },
+  {
+    "id": "racetheghost-5",
+    "title": "Registration",
+    "body": "Opens soon. Get on the list and we'll email you the moment it goes live.",
+    "source_label": "Race the Ghost",
+    "source_url": "/races/racetheghost",
+    "race_slug": "racetheghost",
+    "type": "section",
+    "_search": "registration opens soon. get on the list and we'll email you the moment it goes live."
+  },
+  {
+    "id": "timing-html-0",
+    "title": "Everything you need. Nothing you don't.",
+    "body": "Chip Timing ChronoTrack RFID timing — the industry standard. Disposable bib chips, reusable shoe chips, or both. Net times, gun times, splits, age groups, team scoring — all handled.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "everything you need. nothing you don't. chip timing chronotrack rfid timing — the industry standard. disposable bib chips, reusable shoe chips, or both. net times, gun times, splits, age groups, team scoring — all handled."
+  },
+  {
+    "id": "timing-html-1",
+    "title": "Live Results",
+    "body": "Real-time results posted as runners cross the mat. Web dashboard, SMS alerts for family and crew, and push-to-social integrations. Runners see their time before they're back at their car.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "live results real-time results posted as runners cross the mat. web dashboard, sms alerts for family and crew, and push-to-social integrations. runners see their time before they're back at their car."
+  },
+  {
+    "id": "timing-html-2",
+    "title": "Custom Bibs",
+    "body": "Full-color bib printing with your event logo, sponsors, and runner-specific info (name, distance, corral). Waterproof, tear-resistant, RFID-embedded.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "custom bibs full-color bib printing with your event logo, sponsors, and runner-specific info (name, distance, corral). waterproof, tear-resistant, rfid-embedded."
+  },
+  {
+    "id": "timing-html-3",
+    "title": "Registration Support",
+    "body": "We work with every major platform — UltraSignup, RunSignUp, RaceRoster, OpenSplitTime, and more. You pick what fits your event; we handle the data pipeline.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "registration support we work with every major platform — ultrasignup, runsignup, raceroster, opensplittime, and more. you pick what fits your event; we handle the data pipeline."
+  },
+  {
+    "id": "timing-html-4",
+    "title": "Rentals & Consulting",
+    "body": "Mats, readers, arches, clocks — for rent if you'd rather run your own timing. Consulting on course setup, permitting, insurance, safety — whatever you're stuck on.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "rentals & consulting mats, readers, arches, clocks — for rent if you'd rather run your own timing. consulting on course setup, permitting, insurance, safety — whatever you're stuck on."
+  },
+  {
+    "id": "timing-html-5",
+    "title": "Full Production",
+    "body": "Need the whole thing? We plan, permit, staff, run, and close out events from 50 to 10,000 runners. Sponsorship support included — you focus on your cause, we handle the race.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "full production need the whole thing? we plan, permit, staff, run, and close out events from 50 to 10,000 runners. sponsorship support included — you focus on your cause, we handle the race."
+  },
+  {
+    "id": "timing-html-6",
+    "title": "Want to make your race stand out?",
+    "body": "Let us build you a custom results page, live tracker, or runner portal. Designed for your race. Branded for your sponsors. Engineered by people who write software when they're not out timing events.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "want to make your race stand out? let us build you a custom results page, live tracker, or runner portal. designed for your race. branded for your sponsors. engineered by people who write software when they're not out timing events."
+  },
+  {
+    "id": "timing-html-7",
+    "title": "Runner-built. Finish-line proven.",
+    "body": "We've been on both sides of the timing mat — as race directors, as timers, as runners. That's why the live results come up fast and accurate, the bibs don't peel off in the rain, and the volunteers know what to shout when someone crosses.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "runner-built. finish-line proven. we've been on both sides of the timing mat — as race directors, as timers, as runners. that's why the live results come up fast and accurate, the bibs don't peel off in the rain, and the volunteers know what to shout when someone crosses."
+  },
+  {
+    "id": "timing-html-8",
+    "title": "Miles for Migraine, and many more.",
+    "body": "Organizations across the Northeast have trusted us with their finish lines. You'll be in good company.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "miles for migraine, and many more. organizations across the northeast have trusted us with their finish lines. you'll be in good company."
+  },
+  {
+    "id": "timing-html-9",
+    "title": "Have an event you need timed?",
+    "body": "Send us the date, distance, expected field size, and whatever else you know. We'll come back with a quote and ideas you hadn't thought of.",
+    "source_label": "Timing Services",
+    "source_url": "/timing",
+    "race_slug": null,
+    "type": "section",
+    "_search": "have an event you need timed? send us the date, distance, expected field size, and whatever else you know. we'll come back with a quote and ideas you hadn't thought of."
+  },
+  {
+    "id": "volunteer-html-0",
+    "title": "What we need",
+    "body": "Aid station captains, aid station crew, course marshals, finish-line help, packet pickup, parking direction, trail marking, post-race cleanup, medical support. Short shifts, long shifts, full days — whatever you can give, we'll find a spot.",
+    "source_label": "Volunteering",
+    "source_url": "/volunteer",
+    "race_slug": null,
+    "type": "section",
+    "_search": "what we need aid station captains, aid station crew, course marshals, finish-line help, packet pickup, parking direction, trail marking, post-race cleanup, medical support. short shifts, long shifts, full days — whatever you can give, we'll find a spot."
+  },
+  {
+    "id": "volunteer-html-1",
+    "title": "How it works",
+    "body": "Every volunteer shift earns you credits . Rack up enough credits and you can redeem them for a free entry to a future race. The bigger the race you want, the more credits it takes. Simple.",
+    "source_label": "Volunteering",
+    "source_url": "/volunteer",
+    "race_slug": null,
+    "type": "section",
+    "_search": "how it works every volunteer shift earns you credits . rack up enough credits and you can redeem them for a free entry to a future race. the bigger the race you want, the more credits it takes. simple."
+  },
+  {
+    "id": "volunteer-html-2",
+    "title": "What your credits are worth.",
+    "body": "One shift = one credit. Use them how you want, when you want. Credits don't expire.",
+    "source_label": "Volunteering",
+    "source_url": "/volunteer",
+    "race_slug": null,
+    "type": "section",
+    "_search": "what your credits are worth. one shift = one credit. use them how you want, when you want. credits don't expire."
+  },
+  {
+    "id": "volunteer-html-3",
+    "title": "Tesla Hertz Run",
+    "body": "10 Miler 1 credit 50K 2 credits 100K 3 credits 100 Miler 4 credits 150 Miler 4 credits Virgil Crest Ultras 10K 1 credit 25K / 50K 2 credits 100K 3 credits 100 Miler 4 credits Shore2Shore 25K 2 credits 50K 3 credits Water Gap 50K & Half 25K 2 credits 50K 3 credits Sign Up Ready to volunteer? Tell us which race, which shift, and whether you're bringing friends. We'll follow up with details.",
+    "source_label": "Volunteering",
+    "source_url": "/volunteer",
+    "race_slug": null,
+    "type": "section",
+    "_search": "tesla hertz run 10 miler 1 credit 50k 2 credits 100k 3 credits 100 miler 4 credits 150 miler 4 credits virgil crest ultras 10k 1 credit 25k / 50k 2 credits 100k 3 credits 100 miler 4 credits shore2shore 25k 2 credits 50k 3 credits water gap 50k & half 25k 2 credits 50k 3 credits sign up ready to volunteer? tell us which race, which shift, and whether you're bringing friends. we'll follow up with details."
+  },
+  {
+    "id": "volunteer-html-4",
+    "title": "Trail work hours",
+    "body": "Some of our races (like Shore2Shore) ask you to put in a few hours of trail work or volunteer time. We coordinate with the Long Island Greenbelt and local trail associations — their work days count, ours count, anything that gets dirt moved counts.",
+    "source_label": "Volunteering",
+    "source_url": "/volunteer",
+    "race_slug": null,
+    "type": "section",
+    "_search": "trail work hours some of our races (like shore2shore) ask you to put in a few hours of trail work or volunteer time. we coordinate with the long island greenbelt and local trail associations — their work days count, ours count, anything that gets dirt moved counts."
+  },
+  {
+    "id": "about-html-0",
+    "title": "About the logo.",
+    "body": "Two words, two weights. \"Happily\" comes down in ink — solid, grounded, the state of mind. \"Running\" lifts up in moss green — what you actually do with it. The order matters. The happy comes first. The running is how we get there.",
+    "source_label": "About",
+    "source_url": "/about",
+    "race_slug": null,
+    "type": "section",
+    "_search": "about the logo. two words, two weights. \"happily\" comes down in ink — solid, grounded, the state of mind. \"running\" lifts up in moss green — what you actually do with it. the order matters. the happy comes first. the running is how we get there."
+  },
+  {
+    "id": "index-html-0",
+    "title": "Races across the Northeast — trail, road, and everything dirty.",
+    "body": "We wanted inclusive, affordable, fun races — so we made them. New York, Pennsylvania, and wherever the trail takes us next.",
+    "source_label": "Home",
+    "source_url": "/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "races across the northeast — trail, road, and everything dirty. we wanted inclusive, affordable, fun races — so we made them. new york, pennsylvania, and wherever the trail takes us next."
+  },
+  {
+    "id": "index-html-1",
+    "title": "Tesla Hertz Run",
+    "body": "The flagship. Four days. Eight distances. 150M · 100M · 100K · 50M · 50K day/night · 10M day/night Registration open Sept 12, 2026 · Cortland, NY Virgil Crest A legendary course. A new path. 100M · 100M Relay · 50M · 50K Registration open Sept 13, 2026 · Cortland, NY Greek Peak Festival A weekend-long mountain festival for every skill level. 25K · 10K · 5K · Night 10K/5K · Uphill 1K · Doggo 5K · Kids Mile Registration open Sept 26, 2026 · Milford, PA Water Gap 50K & Half Scenic, flat-ish, PR-ready. The McDade Trail through the Gap. 50K · 25K Registration open Apr 17, 2027 · East Islip, NY Shor",
+    "source_label": "Home",
+    "source_url": "/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "tesla hertz run the flagship. four days. eight distances. 150m · 100m · 100k · 50m · 50k day/night · 10m day/night registration open sept 12, 2026 · cortland, ny virgil crest a legendary course. a new path. 100m · 100m relay · 50m · 50k registration open sept 13, 2026 · cortland, ny greek peak festival a weekend-long mountain festival for every skill level. 25k · 10k · 5k · night 10k/5k · uphill 1k · doggo 5k · kids mile registration open sept 26, 2026 · milford, pa water gap 50k & half scenic, flat-ish, pr-ready. the mcdade trail through the gap. 50k · 25k registration open apr 17, 2027 · east islip, ny shore2shore north shore to south shore, on the greenbelt. 50k · 25k registration opens sept 1, 2026 fall 2026 race the ghost returning this fall — new details drop soon. more info coming registration opens in a few weeks timing & event services thousands of finishers timed. yours could be next. rfid chip timing. any distance. any size. any registration platform."
+  },
+  {
+    "id": "index-html-2",
+    "title": "A small, family-owned company that cares about your race as much as you do.",
+    "body": "Nichole and Vinny. We've put on events for 50 runners and we've put on events for 10,000. We know the difference and we treat both the same.",
+    "source_label": "Home",
+    "source_url": "/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "a small, family-owned company that cares about your race as much as you do. nichole and vinny. we've put on events for 50 runners and we've put on events for 10,000. we know the difference and we treat both the same."
+  }
+]

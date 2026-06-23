@@ -1,0 +1,8 @@
+# Cloudflare Pages serves clean URLs (/about -> about.html) automatically,
+# so NO 200 rewrites are needed (they cause a .html<->clean 308 loop).
+# Only legacy Typedream paths that no longer have a matching file need 301s:
+/about-us                 /about       301
+/beast-of-burden          /races/      301
+/beast-of-burden-summer   /races/      301
+/beast-of-burden-winter   /races/      301
+/coaching                 /            301

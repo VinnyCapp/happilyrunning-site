@@ -275,9 +275,122 @@
       badge.textContent = label;
       card.prepend(badge);
       card.classList.add('is-up-next');
+      // Move Up Next card to first position in its grid so it leads visually.
+      const grid = card.closest('.race-grid');
+      if (grid && grid.firstElementChild !== card) {
+        grid.prepend(card);
+      }
     });
   }
 
   markUpNext();
 
+})();
+
+// ── Client Logo Carousel ──────────────────────────────────────────────
+(function () {
+  var VISIBLE  = 6;
+  var INTERVAL = 3200;
+  var FADE_MS  = 600;
+
+  var ALL_CLIENTS = [
+    { name: 'Miles for Migraine',         file: 'miles-for-migraine.svg',      dark: false },
+    { name: 'Redpoint Productions',       file: 'redpoint-productions.png',    dark: false },
+    { name: 'Red Newt Racing',            file: 'red-newt-racing.png',         dark: true  },
+    { name: 'Smithtown Kickers',          file: 'smithtown-kickers.jpeg',      dark: false },
+    { name: 'Jones Memorial Glow Run',    file: 'jones-memorial-glow-run.png', dark: false },
+    { name: 'Run Monopoly',               file: 'run-monopoly.png',            dark: false },
+    { name: "Mike's Hike",                file: 'mikes-hike.jpg',              dark: false },
+    { name: 'Rangerstone 5K',             file: 'rangerstone-5k.svg',          dark: false },
+    { name: 'Shatterproof',               file: 'shatterproof.png',            dark: false },
+    { name: 'Harriman Triathlon',         file: 'harriman-triathlon.png',       dark: false },
+    { name: 'Florida Coast to Coast 200', file: 'florida-coast-to-coast.png',  dark: false },
+    { name: 'Stadium Blitz',              file: 'stadium-blitz.png',           dark: false },
+    { name: 'Harvard Columbia NYU 5K',    file: null,                          dark: false },
+    { name: '1 Billion Steps for Haiti',  file: null,                          dark: false },
+    { name: 'HSS Greenwich Cup',          file: null,                          dark: false },
+    { name: 'Healing Half',               file: null,                          dark: false },
+    { name: 'RunSignUp',                  file: null,                          dark: false },
+    { name: 'RaceRoster',                 file: null,                          dark: false },
+    { name: 'RunReg',                     file: null,                          dark: false },
+    { name: 'UltraSignup',                file: null,                          dark: false }
+  ];
+
+  var IMG_BASE = '/assets/img/clients/';
+
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
+
+  function makeSlot(client) {
+    var slot = document.createElement('div');
+    slot.className = 'hr-logo-slot' + (client.dark ? ' hr-logo-slot--dark' : '');
+    slot.setAttribute('title', client.name);
+    if (client.file) {
+      var img = document.createElement('img');
+      img.src = IMG_BASE + client.file;
+      img.alt = client.name;
+      img.loading = 'lazy';
+      img.onerror = function () { slot.style.display = 'none'; };
+      slot.appendChild(img);
+    } else {
+      slot.classList.add('hr-logo-slot--text');
+      slot.textContent = client.name;
+    }
+    return slot;
+  }
+
+  function init() {
+    var track = document.getElementById('hr-logo-track');
+    if (!track) return;
+
+    var pool = shuffle(ALL_CLIENTS);
+    var slots = [];
+    var poolIndex = VISIBLE;
+
+    pool.slice(0, VISIBLE).forEach(function (client) {
+      var slot = makeSlot(client);
+      track.appendChild(slot);
+      slots.push({ el: slot, client: client });
+    });
+
+    if (pool.length <= VISIBLE) return;
+
+    setInterval(function () {
+      var i = Math.floor(Math.random() * slots.length);
+      var slot = slots[i];
+      var next = pool[poolIndex % pool.length];
+      var attempts = 0;
+      while (slots.some(function (s) { return s.client.name === next.name; }) && attempts < pool.length) {
+        poolIndex++;
+        next = pool[poolIndex % pool.length];
+        attempts++;
+      }
+      poolIndex++;
+
+      slot.el.classList.add('is-fading-out');
+      setTimeout(function () {
+        var newSlot = makeSlot(next);
+        newSlot.classList.add('is-fading-out');
+        track.replaceChild(newSlot, slot.el);
+        slots[i] = { el: newSlot, client: next };
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            newSlot.classList.remove('is-fading-out');
+          });
+        });
+      }, FADE_MS);
+    }, INTERVAL);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
