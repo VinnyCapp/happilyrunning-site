@@ -1271,3 +1271,29 @@ section { padding: clamp(3.5rem, 8vw, 7rem) 0; }
     flex: 0 0 calc(50% - 2px);
   }
 }
+
+/* ── Site-wide launch notice banner (under sticky header) ───────────── */
+.site-banner {
+  background: var(--moss);
+  color: var(--cream);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+  padding: 0.55rem 1.1rem;
+  border-bottom: 1px solid var(--moss-deep);
+}
+.site-banner a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
+.site-banner a:hover { color: var(--cream); }
+
+/* ── Natural-aspect course map image (portrait route render) ────────── */
+.course-map-img {
+  display: block;
+  margin: 1rem 0 1.5rem;
+  max-width: 480px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(26,42,46,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.course-map-img:hover { transform: translateY(-1px); box-shadow: 0 8px 24px -8px rgba(26,42,46,0.2); }
+.course-map-img img { width: 100%; height: auto; display: block; }
