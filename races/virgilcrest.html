@@ -7,6 +7,42 @@
   <title>Virgil Crest Ultras — Happily Running</title>
   <meta name="description" content="The 100 Miler, 100 Mile Relay, 50 Miler, and 50K returning September 12, 2026 in Cortland, NY. A new path on a legendary course.">
   <link rel="stylesheet" href="/assets/css/site.css?v=108">
+  <style>
+    /* ————— Course maps embed (plotaroute collection) ————— */
+    .course-maps {
+      margin: 1.5rem 0 1.25rem;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--ink);
+      box-shadow: 0 14px 36px rgba(26, 42, 46, 0.18);
+    }
+    .course-maps-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; flex-wrap: wrap;
+      padding: 0.9rem 1.15rem;
+      border-bottom: 1px solid rgba(247, 242, 227, 0.12);
+    }
+    .course-maps-bar .eyebrow { color: var(--sunrise); }
+    .course-maps-hint {
+      font-family: var(--font-mono);
+      font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--sage);
+    }
+    .course-maps-frame {
+      position: relative;
+      height: clamp(460px, 56vw, 640px);
+      background: var(--cream);
+    }
+    .course-maps-frame iframe {
+      position: absolute; top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0; display: block;
+    }
+    @media (max-width: 760px) {
+      .course-maps-frame { height: min(72vh, 560px); }
+      .course-maps-hint { display: none; }
+    }
+  </style>
 </head>
 <body>
 <header class="site-header">
@@ -58,6 +94,28 @@
     <h2>The Race</h2>
     <p>Virgil Crest is one of the Northeast's most respected ultras — now in our hands. We're carrying forward the tradition Ian started, which means the course <strong>will</strong> be different from years prior. Finger Lakes ridgelines. Relentless climbs. One of the most satisfying finish lines in the region.</p>
     <p>We're still locking in final details, but you can count on two things: it'll be everything Virgil has to offer, and then some.</p>
+
+    <h2 id="course-maps">Course Maps</h2>
+    <p>Every route in one place — pick a course from the list to load it on the map, check the elevation profile, and pan the ridgelines before you toe the line. Open the full collection to print, download the GPX, or send a route to your watch.</p>
+
+    <div class="course-maps">
+      <div class="course-maps-bar">
+        <span class="eyebrow">Virgil Crest Ultras — Routes</span>
+        <span class="course-maps-hint">Pick a route · pinch to zoom</span>
+      </div>
+      <div class="course-maps-frame">
+        <iframe
+          name="plotaroute_collection_18431"
+          src="https://www.plotaroute.com/embedcollection/18431?units=miles"
+          title="Virgil Crest Ultras course maps"
+          loading="lazy"
+          scrolling="no"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      </div>
+    </div>
+    <p style="text-align: center; margin: 0 0 2.5rem;">
+      <a href="https://www.plotaroute.com/routecollection/18431" target="_blank" rel="noopener" class="btn btn-outline">Open the full route collection →</a>
+    </p>
 
     <h2>Race Day Schedule</h2>
     <dl class="schedule">
@@ -142,7 +200,7 @@
       <ul class="sidebar-links">
         <li><a href="https://www.google.com/maps?q=42.5166206,-76.1460266" target="_blank" rel="noopener"><span class="ico" data-icon="pin"></span><span class="label">Directions</span></a></li>
         <li><a href="#"><span class="ico" data-icon="bed"></span><span class="label">Lodging</span></a></li>
-        <li><a href="#"><span class="ico" data-icon="map"></span><span class="label">Course map (coming soon)</span></a></li>
+        <li><a href="#course-maps"><span class="ico" data-icon="map"></span><span class="label">Course maps</span></a></li>
         <li><a href="https://galleries.goatfactorymedia.com/virgilcrestultras2021-rnr/full/" target="_blank" rel="noopener"><span class="ico" data-icon="camera"></span><span class="label">2021 photo gallery</span></a></li>
         <li><a href="/volunteer.html"><span class="ico" data-icon="hand"></span><span class="label">Volunteer</span></a></li>
       </ul>

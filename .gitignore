@@ -9,3 +9,6 @@ CLAUDE_CODE_BRIEF_v0.6.2.md
 hr-copy-edits-*.html
 CLAUDE_CODE_BRIEF_logo-carousel-v1.md
 CLAUDE_CODE_BRIEF_race-grid-v1.md
+
+# Local file backups (never publish)
+*.backup-*
