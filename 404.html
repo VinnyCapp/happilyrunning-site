@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/img/brand/hr-favicon.svg" type="image/svg+xml">
+  <title>Off Trail (404) — Happily Running</title>
+  <meta name="description" content="This page isn't where the map said it would be. Here's the way back to the course.">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/assets/css/site.css?v=108">
+  <style>
+    /* ————— 404 / off-trail page ————— */
+    .offtrail {
+      background: var(--ink);
+      color: var(--paper);
+      padding: clamp(4rem, 11vw, 8rem) 0 clamp(3rem, 7vw, 5rem);
+      text-align: center;
+    }
+    .offtrail .eyebrow { color: var(--sunrise); }
+    .offtrail h1 {
+      color: var(--paper);
+      margin: 1rem auto 1.25rem;
+      max-width: 16ch;
+    }
+    .offtrail .lede {
+      color: var(--sage);
+      max-width: 52ch;
+      margin: 0 auto 2rem;
+    }
+    .offtrail-cta {
+      display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center;
+    }
+    .offtrail-marker {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--sky-faded);
+      margin-top: 2.5rem;
+    }
+    .waypoints { padding: clamp(3rem, 7vw, 5rem) 0; }
+    .waypoints h2 { margin-bottom: 0.35rem; }
+    .waypoints .lede { margin-bottom: 1.5rem; }
+    .waypoint-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+    }
+    a.waypoint {
+      display: block;
+      background: var(--cream-soft);
+      border-top: 3px solid var(--sage);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      text-decoration: none;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    a.waypoint:hover, a.waypoint:focus-visible {
+      transform: translateY(-2px);
+      border-top-color: var(--sunrise);
+    }
+    a.waypoint h4 {
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ash);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    a.waypoint p {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--forest-deep);
+    }
+    a.waypoint p span {
+      display: block;
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 0.88rem;
+      color: var(--bark);
+      margin-top: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="/" class="brand" aria-label="Happily Running — Home"><img src="/assets/img/brand/hr-logo-lockup-horizontal.svg" alt="Happily Running" style="height:44px;"></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="https://happily-running.myshopify.com/" target="_blank" rel="noopener">Store</a></li>
+      <li><a href="/races/">Races</a></li>
+      <li><a href="/timing.html">Timing</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/volunteer.html">Volunteer</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- —————— OFF TRAIL —————— -->
+<section class="offtrail">
+  <div class="container">
+    <span class="eyebrow">Error 404 · Missed Turn</span>
+    <h1>Looks like you went <em>off trail.</em></h1>
+    <p class="lede">This page isn't where the map said it would be. No shame in it — happens to the best of us somewhere around mile 60. Backtrack to the last flag and you'll be fine.</p>
+    <div class="offtrail-cta">
+      <a href="/" class="btn btn-primary">Back to the trailhead →</a>
+      <a href="/races/" class="btn btn-outline">See all races</a>
+    </div>
+    <p class="offtrail-marker">You are here · off course · no cowbell</p>
+  </div>
+</section>
+
+<!-- —————— WAYPOINTS —————— -->
+<section class="waypoints">
+  <div class="container">
+    <span class="eyebrow">Waypoints</span>
+    <h2>Where you were probably headed</h2>
+    <p class="lede">The most-visited spots on the site.</p>
+    <div class="waypoint-grid">
+      <a class="waypoint" href="/races/">
+        <h4>Races</h4>
+        <p>Find your race<span>Every event we put on, with dates and distances.</span></p>
+      </a>
+      <a class="waypoint" href="/timing.html">
+        <h4>Timing</h4>
+        <p>Timing services<span>Chip timing for events of any size.</span></p>
+      </a>
+      <a class="waypoint" href="/volunteer.html">
+        <h4>Volunteer</h4>
+        <p>Work an aid station<span>The best seat on the course.</span></p>
+      </a>
+      <a class="waypoint" href="/contact.html">
+        <h4>Contact</h4>
+        <p>Ask us anything<span>Broken link? Tell us and we'll fix it.</span></p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" aria-label="Happily Running — Home"><img src="/assets/img/brand/hr-wordmark-only-light.svg" alt="Happily Running" style="height:80px;"></a>
+        <p>Ultramarathons and trail races across the Northeast. Timing services for events of any size.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Races</h5>
+        <ul>
+          <li><a href="/races/shore2shore.html">Shore2Shore</a></li>
+          <li><a href="/races/virgilcrest.html">Virgil Crest</a></li>
+          <li><a href="/races/greekpeak.html">Greek Peak</a></li>
+          <li><a href="/races/watergap.html">Water Gap</a></li>
+          <li><a href="/races/teslahertz.html">Tesla Hertz</a></li>
+          <li><a href="/races/racetheghost.html">Race the Ghost</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/timing.html">Timing Services</a></li>
+          <li><a href="/volunteer.html">Volunteer</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/refunds.html">Refunds</a></li>
+          <li><a href="https://happily-running.myshopify.com/" target="_blank" rel="noopener">Store</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Connect</h5>
+        <ul>
+          <li><a href="https://instagram.com/happilyrunning" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com/happilyrunning" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/16073767223" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:races@happilyrunning.com">races@happilyrunning.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Happily Running. Built in the basement, run on the trails.</p>
+      <p>Nichole &amp; Vinny</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js?v=108"></script>
+</body>
+</html>
