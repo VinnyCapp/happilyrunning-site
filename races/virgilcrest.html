@@ -42,6 +42,82 @@
       .course-maps-frame { height: min(72vh, 560px); }
       .course-maps-hint { display: none; }
     }
+
+    /* ————— Cutoff chart (aid-station mileage + cutoff times) ————— */
+    /* .race-body is grid-template-columns:1fr under 900px (= minmax(auto,1fr)), so a
+       wide child can stretch the column and blow out the page. The scroll wrapper
+       below should absorb it; this pins the guarantee. */
+    .race-content { min-width: 0; }
+    .cutoffs-wrap {
+      margin: 1.5rem 0 1rem;
+      border: 1px solid rgba(26,42,46,0.12);
+      border-radius: var(--radius-lg);
+      background: var(--cream);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+    }
+    table.cutoffs {
+      border-collapse: separate; border-spacing: 0;
+      width: 100%; min-width: 640px;
+      font-size: 0.88rem;
+      font-variant-numeric: tabular-nums;
+    }
+    table.cutoffs caption { text-align: left; padding: 0.9rem 1rem 0; font-size: 0.78rem; color: var(--ash); }
+    table.cutoffs th, table.cutoffs td {
+      padding: 0.55rem 0.7rem;
+      border-bottom: 1px solid rgba(26,42,46,0.08);
+      text-align: center;
+      white-space: nowrap;
+    }
+    table.cutoffs thead th {
+      position: sticky; top: 0; z-index: 2;
+      background: var(--ink); color: var(--paper);
+      font-family: var(--font-mono);
+      font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600;
+      border-bottom: none;
+    }
+    table.cutoffs thead tr:first-child th { padding-top: 0.75rem; }
+    table.cutoffs thead .grp { border-bottom: 1px solid rgba(240,236,224,0.25); }
+    /* aid-station column: left-aligned, pinned while the mileage columns scroll */
+    table.cutoffs th.stn, table.cutoffs td.stn {
+      position: sticky; left: 0; z-index: 1;
+      text-align: left; white-space: normal;
+      background: var(--cream);
+      font-weight: 600; color: var(--ink);
+      box-shadow: 1px 0 0 rgba(26,42,46,0.10);
+      min-width: 11rem;
+    }
+    table.cutoffs thead th.stn { background: var(--ink); z-index: 3; box-shadow: 1px 0 0 rgba(240,236,224,0.25); }
+    table.cutoffs td.mi { font-family: var(--font-mono); font-size: 0.84rem; color: var(--ink); }
+    /* an empty cell means that distance never reaches this aid station */
+    table.cutoffs td.mi:empty { background: rgba(26,42,46,0.04); }
+    table.cutoffs td.clock { font-family: var(--font-mono); font-size: 0.84rem; font-weight: 600; color: var(--moss-deep); }
+    table.cutoffs td.tod { color: var(--bark); }
+    table.cutoffs tbody tr:last-child td { border-bottom: none; }
+    table.cutoffs tbody tr.hard td { background: rgba(196,154,92,0.16); }
+    table.cutoffs tbody tr.hard td.stn { background: #efe4cf; }
+    table.cutoffs tbody tr.hard td.clock { color: var(--ink); }
+    .cutoffs-note {
+      font-size: 0.82rem; color: var(--ash);
+      margin: 0 0 2rem; display: flex; flex-wrap: wrap; gap: 0.35rem 1.25rem;
+    }
+    .cutoffs-note .hard-key::before {
+      content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
+      background: rgba(196,154,92,0.55); border-radius: 2px; margin-right: 0.4rem;
+      vertical-align: baseline;
+    }
+    .cutoffs-hint { display: none; }
+    @media (max-width: 760px) {
+      table.cutoffs { font-size: 0.8rem; }
+      table.cutoffs th, table.cutoffs td { padding: 0.5rem 0.55rem; }
+      table.cutoffs th.stn, table.cutoffs td.stn { min-width: 9.5rem; }
+      .cutoffs-hint {
+        display: block; font-family: var(--font-mono);
+        font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase;
+        color: var(--ash); margin: 0 0 0.4rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -134,6 +210,50 @@
       <li><strong>The Hurt Locker</strong><span>Aid Station</span></li>
       <li><strong>Gravel Pit</strong><span>Aid Station</span></li>
     </ul>
+
+    <h2 id="cutoffs">Cutoffs</h2>
+    <p>Mileage to each aid station, by distance, with the cutoff time you have to be out by. Blank means that distance doesn&rsquo;t reach that aid station.</p>
+    <p class="cutoffs-hint">Swipe the table sideways &rarr;</p>
+    <div class="cutoffs-wrap" tabindex="0" role="region" aria-labelledby="cutoffs">
+      <table class="cutoffs">
+        <caption>Aid station mileage and cutoffs &mdash; Virgil Crest Ultras</caption>
+        <thead>
+          <tr>
+            <th scope="col" rowspan="2" class="stn">Aid Station</th>
+            <th scope="colgroup" colspan="4" class="grp">Mileage</th>
+            <th scope="col" rowspan="2">Race Clock</th>
+            <th scope="col" rowspan="2">Time of Day</th>
+          </tr>
+          <tr>
+            <th scope="col">50K</th>
+            <th scope="col">50M</th>
+            <th scope="col">100K</th>
+            <th scope="col">100M</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row" class="stn">Joe's 8</th><td class="mi">6.75</td><td class="mi">6.75</td><td class="mi">6.75</td><td class="mi">6.75</td><td class="clock">2:27:16</td><td class="tod">8:27:16 AM</td></tr>
+          <tr><th scope="row" class="stn">Return to Joe's 8</th><td class="mi">11</td><td class="mi">11</td><td class="mi">11</td><td class="mi">11</td><td class="clock">4:00:00</td><td class="tod">10:00:00 AM</td></tr>
+          <tr><th scope="row" class="stn">Hurt Locker</th><td class="mi">16.4</td><td class="mi">16.4</td><td class="mi">16.4</td><td class="mi">16.4</td><td class="clock">5:57:49</td><td class="tod">11:57:49 AM</td></tr>
+          <tr><th scope="row" class="stn">Gravel Pit</th><td class="mi">22.5</td><td class="mi">22.5</td><td class="mi">22.5</td><td class="mi">22.5</td><td class="clock">8:10:55</td><td class="tod">2:10:55 PM</td></tr>
+          <tr><th scope="row" class="stn">Return to Gravel Pit</th><td class="mi">27</td><td class="mi">27</td><td class="mi">27</td><td class="mi">27</td><td class="clock">9:49:06</td><td class="tod">3:49:06 PM</td></tr>
+          <tr><th scope="row" class="stn">Hurt Locker</th><td class="mi">33</td><td class="mi">33</td><td class="mi">33</td><td class="mi">33</td><td class="clock">12:00:00</td><td class="tod">6:00:00 PM</td></tr>
+          <tr><th scope="row" class="stn">Joe's 8</th><td class="mi"></td><td class="mi">39.75</td><td class="mi">39.75</td><td class="mi">39.75</td><td class="clock">14:27:17</td><td class="tod">8:27:17 PM</td></tr>
+          <tr><th scope="row" class="stn">Return to Joe's 8</th><td class="mi"></td><td class="mi">44</td><td class="mi">44</td><td class="mi">44</td><td class="clock">16:00:00</td><td class="tod">10:00:00 PM</td></tr>
+          <tr><th scope="row" class="stn">Hurt Locker</th><td class="mi"></td><td class="mi">49.4</td><td class="mi">49.4</td><td class="mi">49.4</td><td class="clock">17:57:50</td><td class="tod">11:57:50 PM</td></tr>
+          <tr><th scope="row" class="stn">Gravel Pit</th><td class="mi"></td><td class="mi"></td><td class="mi">55.5</td><td class="mi">55.5</td><td class="clock">20:10:55</td><td class="tod">2:10:55 AM</td></tr>
+          <tr><th scope="row" class="stn">Return to Gravel Pit</th><td class="mi"></td><td class="mi"></td><td class="mi">60</td><td class="mi">60</td><td class="clock">21:49:06</td><td class="tod">3:49:06 AM</td></tr>
+          <tr class="hard"><th scope="row" class="stn">Hurt Locker</th><td class="mi"></td><td class="mi"></td><td class="mi">66</td><td class="mi">66</td><td class="clock">24:00:01</td><td class="tod">6:00:01 AM</td></tr>
+          <tr><th scope="row" class="stn">Joe's 8</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">72.75</td><td class="clock">26:27:17</td><td class="tod">8:27:17 AM</td></tr>
+          <tr><th scope="row" class="stn">Return to Joe's 8</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">77</td><td class="clock">28:00:01</td><td class="tod">10:00:01 AM</td></tr>
+          <tr><th scope="row" class="stn">Hurt Locker</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">82.4</td><td class="clock">29:57:50</td><td class="tod">11:57:50 AM</td></tr>
+          <tr><th scope="row" class="stn">Gravel Pit</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">88.5</td><td class="clock">32:10:55</td><td class="tod">2:10:55 PM</td></tr>
+          <tr><th scope="row" class="stn">Return to Gravel Pit</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">93</td><td class="clock">33:49:06</td><td class="tod">3:49:06 PM</td></tr>
+          <tr><th scope="row" class="stn">Hurt Locker (Finish)</th><td class="mi"></td><td class="mi"></td><td class="mi"></td><td class="mi">99</td><td class="clock">36:00:01</td><td class="tod">6:00:01 PM</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="cutoffs-note"><span class="hard-key">Hard cutoff &mdash; applies to all distances.</span></p>
 
     <h2>Swag</h2>
     <p>Virgil has a history of cool, locally sourced finishers giveaways — those <strong>will</strong> be in the mix. Expect something snazzy. Details posted as they're finalized.</p>
