@@ -87,7 +87,7 @@
       "registration_url": "https://ultrasignup.com/register.aspx?did=135525",
       "pricing": {
         "from": 55,
-        "next_increase": "2026-04-14",
+        "next_increase": null,
         "tiers": [
           {"label": "25K", "price": 55, "after": 65, "after_date": "2026-04-14"},
           {"label": "50K", "price": 85, "after": 95, "after_date": "2026-04-14"}
