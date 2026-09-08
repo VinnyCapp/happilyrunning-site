@@ -264,17 +264,29 @@
     <h2>Crew Info</h2>
     <p>We're working hard to make sure the stations are crew accessible. The Start/Finish is confirmed for crew access, and there will be at least one additional station throughout the course. Updates coming. All crew and pacer actions are the runner's responsibility — runners must make sure their crew knows the rules.</p>
 
-    <!-- Tools callout — live tracking, results, etc. -->
-    <div class="tools-callout">
-      <div>
-        <h3>Live Tracking — Race Day</h3>
-        <p>Follow every runner's checkpoint times live on race day, plus an estimated position on the course map (beta).</p>
-        <p><a href="https://virgil.happilyrunning.com" class="btn" target="_blank" rel="noopener">Live results &amp; tracking</a>
-           <a href="/sms-alerts" class="btn btn-outline" style="margin-left:.5rem">Runner Alerts (text / WhatsApp)</a></p>
-        <p style="font-size:.9em;color:#666">Results go live at the 6:00 AM start on Saturday, September 12.</p>
+    <!-- Live tracking hero — mirrors the card on tracking.happilyrunning.com -->
+    <div class="track-hero">
+      <h3>Virgil Crest Ultras <span class="track-tag">Live tracking</span></h3>
+      <div class="track-when">Sat, Sep 12, 2026 · 6:00 AM start</div>
+      <p>100 mile, 50 mile, 50K on the Virgil Mountain lobes. Checkpoint times at Hurt Locker, estimated positions (beta), Runner Alerts by text, WhatsApp or email.</p>
+      <div class="track-btns">
+        <a class="track-btn primary" href="https://virgil.happilyrunning.com" target="_blank" rel="noopener">Live results</a>
+        <a class="track-btn" href="https://virgil.happilyrunning.com/live" target="_blank" rel="noopener">Last through the mat</a>
+        <a class="track-btn" href="https://virgil.happilyrunning.com/alerts" target="_blank" rel="noopener">Runner Alerts</a>
+        <a class="track-btn" href="https://virgil.happilyrunning.com/crew" target="_blank" rel="noopener">Crew info</a>
+        <a class="track-btn" href="https://tracking.happilyrunning.com" target="_blank" rel="noopener">All races</a>
       </div>
-      <a href="#" class="btn btn-outline" aria-disabled="true" style="opacity: 0.6;">Opens race week</a>
     </div>
+    <style>
+      .track-hero{background:var(--ink);color:#fff;border-radius:16px;padding:22px 22px 18px;margin:1.5rem 0 2rem;box-shadow:0 8px 30px rgba(0,0,0,.12)}
+      .track-hero h3{font-family:var(--font-display);font-weight:400;font-size:1.9rem;line-height:1.05;color:#fff;margin:0}
+      .track-tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.65rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--sunrise);color:#1a1200;vertical-align:middle;margin-left:8px;font-family:var(--font-body)}
+      .track-when{color:#d4c7ad;margin:6px 0 10px}.track-hero p{color:#e4ddcf;margin:0 0 14px;font-size:.95rem}
+      .track-btns{display:flex;gap:10px;flex-wrap:wrap}
+      .track-btn{display:inline-block;background:transparent;color:#fff;border:1.5px solid #fff;text-decoration:none;font-weight:700;padding:11px 16px;border-radius:10px}
+      .track-btn.primary{background:var(--sunrise);color:#1a1200;border-color:var(--sunrise)}
+      .track-btn:hover{background:rgba(255,255,255,.12)}.track-btn.primary:hover{background:var(--sunrise-warm)}
+    </style>
 
     <h2 style="margin-top: 3.5rem;">FAQ</h2>
     <div class="faq">
