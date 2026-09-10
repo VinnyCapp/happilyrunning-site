@@ -308,7 +308,6 @@ section { padding: clamp(3.5rem, 8vw, 7rem) 0; }
 
 .race-card[data-race="shore2shore"]::before { background-image: url('/assets/img/shore2shore.jpg'); background-color: var(--pine); }
 .race-card[data-race="virgilcrest"]::before { background-image: url('/assets/img/virgilcrest.jpg'); background-color: var(--ink-deep); }
-.race-card[data-race="greekpeak"]::before   { background-image: url('/assets/img/greekpeak.jpg');   background-color: var(--moss); }
 .race-card[data-race="watergap"]::before    { background-image: url('/assets/img/watergap.jpg');    background-color: var(--lake); }
 .race-card[data-race="teslahertz"]::before  { background-image: url('/assets/img/teslahertz.jpg');  background-color: var(--ink); }
 .race-card[data-race="ghost"]::before       { background-image: url('/assets/img/racetheghost.jpg');background-color: var(--ink-deep); }
@@ -460,7 +459,6 @@ section { padding: clamp(3.5rem, 8vw, 7rem) 0; }
 
 .race-hero[data-race="shore2shore"]::before { background-image: url('/assets/img/shore2shore-hero.jpg'); background-color: var(--pine); }
 .race-hero[data-race="virgilcrest"]::before { background-image: url('/assets/img/virgilcrest-hero.jpg'); background-color: var(--ink-deep); }
-.race-hero[data-race="greekpeak"]::before   { background-image: url('/assets/img/greekpeak-hero.jpg');   background-color: var(--moss); }
 .race-hero[data-race="watergap"]::before    { background-image: url('/assets/img/watergap-hero.jpg');    background-color: var(--lake); }
 .race-hero[data-race="teslahertz"]::before  { background-image: url('/assets/img/teslahertz-hero.jpg');  background-color: var(--ink); }
 .race-hero[data-race="ghost"]::before       { background-image: url('/assets/img/racetheghost-hero.jpg');background-color: var(--ink-deep); }

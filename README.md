@@ -11,7 +11,6 @@ hr-site/
 │   ├── index.html          # All races
 │   ├── shore2shore.html    # Full-featured template (banner, FAQ, schedule)
 │   ├── virgilcrest.html
-│   ├── greekpeak.html
 │   ├── watergap.html
 │   ├── teslahertz.html
 │   └── racetheghost.html   # Teaser page (coming soon)

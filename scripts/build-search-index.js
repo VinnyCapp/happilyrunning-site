@@ -20,7 +20,6 @@ const RACE_LABELS = {
   'virgilcrest':  'Virgil Crest',
   'teslahertz':   'Tesla Hertz',
   'watergap':     'Water Gap',
-  'greekpeak':    'Greek Peak',
   'racetheghost': 'Race the Ghost',
 };
 
@@ -31,7 +30,6 @@ const PAGES = [
   { file: 'races/virgilcrest.html',  label: 'Virgil Crest',   url: '/races/virgilcrest',  slug: 'virgilcrest'  },
   { file: 'races/teslahertz.html',   label: 'Tesla Hertz',    url: '/races/teslahertz',   slug: 'teslahertz'   },
   { file: 'races/watergap.html',     label: 'Water Gap',      url: '/races/watergap',     slug: 'watergap'     },
-  { file: 'races/greekpeak.html',    label: 'Greek Peak',     url: '/races/greekpeak',    slug: 'greekpeak'    },
   { file: 'races/racetheghost.html', label: 'Race the Ghost', url: '/races/racetheghost', slug: 'racetheghost' },
   // General pages
   { file: 'timing.html',    label: 'Timing Services', url: '/timing',    slug: null },

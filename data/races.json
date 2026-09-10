@@ -45,34 +45,6 @@
       },
       "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339"
     },
-    "greekpeak": {
-      "slug": "greekpeak",
-      "name": "Greek Peak Running Festival",
-      "date": "September 13, 2026",
-      "date_iso": "2026-09-13",
-      "date_short": "Sept 13, 2026",
-      "location": "Cortland, NY",
-      "distances": ["25K", "10K", "5K", "Night 10K", "Night 5K", "Uphill 1K", "Doggo 5K", "Kids Mile"],
-      "distances_display": "25K · 10K · 5K · Night 10K/5K · Uphill 1K · Doggo 5K · Kids Mile",
-      "status": "open",
-      "status_text": "Registration open",
-      "registration_url": "https://raceroster.com/events/2026/114967/greek-peak-running-festival",
-      "pricing": {
-        "from": 39.44,
-        "next_increase": "2026-08-09",
-        "tiers": [
-          {"label": "25K",           "price": 60.83},
-          {"label": "10K",           "price": 50.14},
-          {"label": "5K",            "price": 39.44},
-          {"label": "Uphill 1K",     "price": 39.44},
-          {"label": "Doggo 5K",      "price": 39.44},
-          {"label": "Night 10K",     "price": 50.14},
-          {"label": "Night 5K",      "price": 39.44},
-          {"label": "Kids Mile",     "price": 0, "note": "12 and under run free"}
-        ]
-      },
-      "results_group_url": "https://results.raceroster.com/v3/events/6mwzsdubjutzhkk3"
-    },
     "watergap": {
       "slug": "watergap",
       "name": "Water Gap 50K & Half",
