@@ -1,0 +1,18 @@
+{
+  "name": "hr-social",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Happily Running social publisher — draft, approve, schedule, and post to Instagram/Facebook with a two-switch (approval + pause) safety model.",
+  "main": "hr-social.mjs",
+  "scripts": {
+    "start": "node hr-social.mjs",
+    "check": "node --check hr-social.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0"
+  }
+}

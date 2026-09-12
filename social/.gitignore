@@ -1,0 +1,5 @@
+node_modules/
+.env
+hr-social.data.json
+hr-social.data.json.tmp
+*.log
