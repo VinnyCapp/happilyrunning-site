@@ -613,6 +613,12 @@ section { padding: clamp(3.5rem, 8vw, 7rem) 0; }
 }
 .tools-callout h3 { color: var(--cream); margin: 0 0 0.35rem; font-size: 1.4rem; }
 .tools-callout p { color: var(--sage); margin: 0; max-width: 42ch; }
+/* The callout panel is dark (--forest). The default ink-on-forest outline button
+   measures 2.12:1 — unreadable — so buttons inside the callout invert to cream. */
+.tools-callout .btn-primary { background: var(--cream); color: var(--ink); }
+.tools-callout .btn-primary:hover { background: var(--paper); color: var(--ink); }
+.tools-callout .btn-outline { border-color: var(--cream); color: var(--cream); background: transparent; }
+.tools-callout .btn-outline:hover { background: var(--cream); color: var(--ink); }
 
 /* ————— Footer ————— */
 .site-footer {
