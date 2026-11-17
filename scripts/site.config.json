@@ -1,0 +1,10 @@
+{
+  "SITE_VERSION": "1.0",
+  "SITE_RELEASE_DATE": "2026-11-16",
+  "SITE_URL": "https://happilyrunning.com",
+  "PRICE_FLOOR": null,
+  "_notes": {
+    "PRICE_FLOOR": "Set to a display string like \"$600\" to show 'Small local 5Ks typically start around $600.' on /timing/. null = line omitted entirely.",
+    "SITE_VERSION": "Bump on a real release; shown in every page footer as 'site vX - DATE'."
+  }
+}

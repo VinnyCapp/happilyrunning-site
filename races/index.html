@@ -6,7 +6,51 @@
   <link rel="icon" href="/assets/img/brand/hr-favicon.svg" type="image/svg+xml">
   <title>Our Races — Happily Running</title>
   <meta name="description" content="Trail races and ultramarathons across the Northeast — Shore2Shore, Virgil Crest, Water Gap, Tesla Hertz, and Race the Ghost.">
-  <link rel="stylesheet" href="/assets/css/site.css?v=108">
+  <link rel="stylesheet" href="/assets/css/site.css?v=109">
+<!-- BUILD:EVENTS-JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsEvent",
+      "name": "Shore2Shore",
+      "sport": "Running",
+      "startDate": "2027-04-17",
+      "endDate": "2027-04-17",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "url": "https://happilyrunning.com/races/shore2shore",
+      "description": "North shore to south shore, on the Greenbelt. Distances: 50K, 25K.",
+      "location": {
+        "@type": "Place",
+        "name": "East Islip, NY",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "East Islip",
+          "addressRegion": "NY",
+          "addressCountry": "US"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Happily Running",
+        "url": "https://happilyrunning.com"
+      },
+      "image": [
+        "https://happilyrunning.com/assets/img/shore2shore-hero.jpg"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ultrasignup.com/register.aspx?did=142255",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "USD"
+      }
+    }
+  ]
+}
+</script>
+<!-- BUILD:EVENTS-JSONLD:END -->
 </head>
 <body>
 <header class="site-header">
@@ -16,7 +60,7 @@
     <ul class="nav-links">
       <li><a href="https://happily-running.myshopify.com/collections/all" target="_blank" rel="noopener">Store</a></li>
       <li><a href="/races/">Races</a></li>
-      <li><a href="/timing.html">Timing</a></li>
+      <li><a href="/timing/">Timing</a></li>
       <li><a href="/about.html">About</a></li>
       <li><a href="/volunteer.html">Volunteer</a></li>
       <li><a href="/contact.html">Contact</a></li>
@@ -38,48 +82,51 @@
 <section style="padding: 0 0 clamp(5rem, 9vw, 7rem);">
   <div class="container">
     <div class="race-grid">
+<!-- BUILD:RACES:START -->
+  <a href="/races/shore2shore.html" class="race-card" data-race="shore2shore" data-date="2027-04-17">
+    <div class="race-card-date">Apr 17, 2027 · East Islip, NY</div>
+    <h3 class="race-card-name">Shore2Shore</h3>
+    <div class="race-card-location">North shore to south shore, on the Greenbelt.</div>
+    <div class="race-card-distances">50K · 25K</div>
+    <span class="race-card-status is-open"><span class="dot"></span>Registration open</span>
+  </a>
 
-      <a href="/races/teslahertz.html" class="race-card" data-race="teslahertz">
-        <div class="race-card-date">Oct 9–12, 2026 · Rocky Point, NY</div>
-        <h3 class="race-card-name">Tesla Hertz Run</h3>
-        <div class="race-card-location">The flagship. Four days. Eight distances.</div>
-        <div class="race-card-distances">150M · 100M · 100K · 50M · 50K day/night · 10M day/night</div>
-        <span class="race-card-status is-open"><span class="dot"></span>Registration open</span>
-      </a>
+  <div class="race-card is-past" data-race="racetheghost" data-date="2026-10-30">
+    <div class="race-card-date">Oct 30, 2026 · Dryden, NY</div>
+    <h3 class="race-card-name"><a href="/races/racetheghost.html">Race the Ghost</a></h3>
+    <div class="race-card-location">Halloween 5K on the Dryden Rail Trail. Costumes encouraged.</div>
+    <div class="race-card-distances">5K · 5 PM start</div>
+    <span class="race-card-status is-closed"><span class="dot"></span>2026 race complete</span>
+    <div class="race-card-links"><span class="next">2027 date TBA</span><a href="/races/racetheghost.html">Race info →</a></div>
+  </div>
 
-      <a href="/races/virgilcrest.html" class="race-card" data-race="virgilcrest">
-        <div class="race-card-date">Sept 12, 2026 · Cortland, NY</div>
-        <h3 class="race-card-name">Virgil Crest</h3>
-        <div class="race-card-location">A legendary course. A new path.</div>
-        <div class="race-card-distances">100M · 100M Relay · 50M · 50K</div>
-        <span class="race-card-status is-open"><span class="dot"></span>Registration open</span>
-      </a>
+  <div class="race-card is-past" data-race="teslahertz" data-date="2026-10-09">
+    <div class="race-card-date">Oct 9–12, 2026 · Rocky Point, NY</div>
+    <h3 class="race-card-name"><a href="/races/teslahertz.html">Tesla Hertz Run</a></h3>
+    <div class="race-card-location">The flagship. Four days. Eight distances.</div>
+    <div class="race-card-distances">150M · 100M · 100K · 50M · 50K day/night · 10M day/night</div>
+    <a class="race-card-status is-closed" href="https://ultrasignup.com/results_event.aspx?did=134293" target="_blank" rel="noopener"><span class="dot"></span>2026 results →</a>
+    <div class="race-card-links"><span class="next">2027 date TBA</span><a href="/races/teslahertz.html">Race info →</a></div>
+  </div>
 
+  <div class="race-card is-past" data-race="watergap" data-date="2026-09-26">
+    <div class="race-card-date">Sept 26, 2026 · Milford, PA</div>
+    <h3 class="race-card-name"><a href="/races/watergap.html">Water Gap 50K &amp; Half</a></h3>
+    <div class="race-card-location">Scenic, flat-ish, PR-ready. The McDade Trail through the Gap.</div>
+    <div class="race-card-distances">50K · 25K</div>
+    <a class="race-card-status is-closed" href="https://ultrasignup.com/results_event.aspx?did=135525" target="_blank" rel="noopener"><span class="dot"></span>2026 results →</a>
+    <div class="race-card-links"><span class="next">2027 date TBA</span><a href="/races/watergap.html">Race info →</a></div>
+  </div>
 
-      <a href="/races/watergap.html" class="race-card" data-race="watergap">
-        <div class="race-card-date">Sept 26, 2026 · Milford, PA</div>
-        <h3 class="race-card-name">Water Gap 50K &amp; Half</h3>
-        <div class="race-card-location">Scenic, flat-ish, PR-ready. The McDade Trail through the Gap.</div>
-        <div class="race-card-distances">50K · 25K</div>
-        <span class="race-card-status is-open"><span class="dot"></span>Registration open</span>
-      </a>
-
-      <a href="/races/shore2shore.html" class="race-card" data-race="shore2shore">
-        <div class="race-card-date">Apr 17, 2027 · East Islip, NY</div>
-        <h3 class="race-card-name">Shore2Shore</h3>
-        <div class="race-card-location">North shore to south shore, on the Greenbelt.</div>
-        <div class="race-card-distances">50K · 25K</div>
-        <span class="race-card-status is-upcoming"><span class="dot"></span>Registration opens Sept 1, 2026</span>
-      </a>
-
-      <a href="/races/racetheghost.html" class="race-card" data-race="racetheghost">
-        <div class="race-card-date">Fall 2026</div>
-        <h3 class="race-card-name">Race the Ghost</h3>
-        <div class="race-card-location">Returning this fall — new details drop soon.</div>
-        <div class="race-card-distances">More info coming</div>
-        <span class="race-card-status is-upcoming"><span class="dot"></span>Registration opens in a few weeks</span>
-      </a>
-
+  <div class="race-card is-past" data-race="virgilcrest" data-date="2026-09-12">
+    <div class="race-card-date">Sept 12, 2026 · Cortland, NY</div>
+    <h3 class="race-card-name"><a href="/races/virgilcrest.html">Virgil Crest Ultras</a></h3>
+    <div class="race-card-location">A legendary course. A new path.</div>
+    <div class="race-card-distances">100M · 100M Relay · 50M · 50K</div>
+    <a class="race-card-status is-closed" href="https://ultrasignup.com/results_event.aspx?did=135280" target="_blank" rel="noopener"><span class="dot"></span>2026 results →</a>
+    <div class="race-card-links"><span class="next">2027 date TBA</span><a href="/races/virgilcrest.html">Race info →</a></div>
+  </div>
+<!-- BUILD:RACES:END -->
     </div>
   </div>
 </section>
@@ -89,7 +136,7 @@
     <span class="eyebrow">Timing &amp; Event Services</span>
     <h2 style="margin: 1rem 0 1.25rem;">Have your own event?</h2>
     <p class="lede">From a box of safety pins to a fully produced event — and everything in between.</p>
-    <div style="margin-top: 2rem;"><a href="/timing.html" class="btn btn-outline">Timing services →</a></div>
+    <div style="margin-top: 2rem;"><a href="/timing/" class="btn btn-outline">Timing services →</a></div>
   </div>
 </section>
 
@@ -114,7 +161,7 @@
         <h5>Company</h5>
         <ul>
           <li><a href="/about.html">About</a></li>
-          <li><a href="/timing.html">Timing Services</a></li>
+          <li><a href="/timing/">Timing Services</a></li>
           <li><a href="/volunteer.html">Volunteer</a></li>
           <li><a href="/contact.html">Contact</a></li>
           <li><a href="/refunds.html">Refunds</a></li>
@@ -134,10 +181,11 @@
     <div class="footer-bottom">
       <p>© 2026 Happily Running. Built in the basement, run on the trails.</p>
       <p>Nichole &amp; Vinny</p>
+      <!-- BUILD:STAMP:START --><p class="build-stamp">site v1.0 - 2026-11-16</p><!-- BUILD:STAMP:END -->
     </div>
   </div>
 </footer>
 
-<script src="/assets/js/site.js?v=108"></script>
+<script src="/assets/js/site.js?v=109"></script>
 </body>
 </html>

@@ -1,8 +1,9 @@
 {
   "_meta": {
-    "version": "0.3.0",
-    "last_updated": "2026-04-22",
-    "note": "Single source of truth for race metadata. When prices tier up, edit this file only. Pages read via fetch('/data/races.json')."
+    "version": "1.0.0",
+    "last_updated": "2026-11-16",
+    "note": "Single source of truth for race metadata. scripts/build-site.js regenerates the race cards on / and /races/ plus Event JSON-LD from this file (daily cron). Race-page pricing sidebars still read it at runtime via fetch('/data/races.json').",
+    "fields": "date_iso = first day; date_end_iso = last day for multi-day races (null = single day). results_url = results for the most recent edition. next_edition = {date_iso, label} once the next date is known, else null. results_url may be null for UltraSignup races: the build derives results_event.aspx?did=<registration did>."
   },
   "races": {
     "shore2shore": {
@@ -12,14 +13,23 @@
       "date_iso": "2027-04-17",
       "date_short": "Apr 17, 2027",
       "location": "East Islip, NY",
-      "distances": ["50K", "25K"],
+      "distances": [
+        "50K",
+        "25K"
+      ],
       "distances_display": "50K · 25K",
-      "status": "upcoming",
-      "status_text": "Registration opens Sept 1, 2026",
-      "registration_url": null,
-      "registration_opens": "2026-09-01",
+      "status": "open",
+      "status_text": "Registration open",
+      "registration_url": "https://ultrasignup.com/register.aspx?did=142255",
+      "registration_opens": null,
       "pricing": null,
-      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339"
+      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339",
+      "tagline": "North shore to south shore, on the Greenbelt.",
+      "date_end_iso": null,
+      "results_url": null,
+      "next_edition": null,
+      "image": "/assets/img/shore2shore-hero.jpg",
+      "region": "NY"
     },
     "virgilcrest": {
       "slug": "virgilcrest",
@@ -28,7 +38,12 @@
       "date_iso": "2026-09-12",
       "date_short": "Sept 12, 2026",
       "location": "Cortland, NY",
-      "distances": ["100M", "100M Relay", "50M", "50K"],
+      "distances": [
+        "100M",
+        "100M Relay",
+        "50M",
+        "50K"
+      ],
       "distances_display": "100M · 100M Relay · 50M · 50K",
       "status": "open",
       "status_text": "Registration open",
@@ -37,13 +52,39 @@
         "from": 85,
         "next_increase": "2026-08-14",
         "tiers": [
-          {"label": "100 Miler",  "price": 285, "after": 315, "after_date": "2026-08-14"},
-          {"label": "100M Relay", "price": 385, "after": 425, "after_date": "2026-08-31"},
-          {"label": "50 Miler",   "price": 125, "after": 145, "after_date": "2026-08-14"},
-          {"label": "50K",        "price": 85,  "after": 105, "after_date": "2026-08-14"}
+          {
+            "label": "100 Miler",
+            "price": 285,
+            "after": 315,
+            "after_date": "2026-08-14"
+          },
+          {
+            "label": "100M Relay",
+            "price": 385,
+            "after": 425,
+            "after_date": "2026-08-31"
+          },
+          {
+            "label": "50 Miler",
+            "price": 125,
+            "after": 145,
+            "after_date": "2026-08-14"
+          },
+          {
+            "label": "50K",
+            "price": 85,
+            "after": 105,
+            "after_date": "2026-08-14"
+          }
         ]
       },
-      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339"
+      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339",
+      "tagline": "A legendary course. A new path.",
+      "date_end_iso": null,
+      "results_url": "https://ultrasignup.com/results_event.aspx?did=135280",
+      "next_edition": null,
+      "image": "/assets/img/virgilcrest-hero.jpg",
+      "region": "NY"
     },
     "watergap": {
       "slug": "watergap",
@@ -52,7 +93,10 @@
       "date_iso": "2026-09-26",
       "date_short": "Sept 26, 2026",
       "location": "Milford, PA",
-      "distances": ["50K", "25K"],
+      "distances": [
+        "50K",
+        "25K"
+      ],
       "distances_display": "50K · 25K",
       "status": "open",
       "status_text": "Registration open",
@@ -61,11 +105,27 @@
         "from": 65,
         "next_increase": null,
         "tiers": [
-          {"label": "25K", "price": 65, "after": 75, "after_date": "2026-09-14"},
-          {"label": "50K", "price": 95, "after": 105, "after_date": "2026-09-14"}
+          {
+            "label": "25K",
+            "price": 65,
+            "after": 75,
+            "after_date": "2026-09-14"
+          },
+          {
+            "label": "50K",
+            "price": 95,
+            "after": 105,
+            "after_date": "2026-09-14"
+          }
         ]
       },
-      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339"
+      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339",
+      "tagline": "Scenic, flat-ish, PR-ready. The McDade Trail through the Gap.",
+      "date_end_iso": null,
+      "results_url": "https://ultrasignup.com/results_event.aspx?did=135525",
+      "next_edition": null,
+      "image": "/assets/img/watergap-hero.jpg",
+      "region": "PA"
     },
     "teslahertz": {
       "slug": "teslahertz",
@@ -74,7 +134,16 @@
       "date_iso": "2026-10-09",
       "date_short": "Oct 9-12, 2026",
       "location": "Rocky Point, NY",
-      "distances": ["150M", "100M", "100K", "50M", "50K Day", "50K Night", "10M", "10M Night"],
+      "distances": [
+        "150M",
+        "100M",
+        "100K",
+        "50M",
+        "50K Day",
+        "50K Night",
+        "10M",
+        "10M Night"
+      ],
       "distances_display": "150M · 100M · 100K · 50M · 50K day/night · 10M day/night",
       "status": "open",
       "status_text": "Registration open",
@@ -83,33 +152,87 @@
         "from": 45,
         "next_increase": "2026-03-31",
         "tiers": [
-          {"label": "150 Miler",    "price": 300, "after": 350, "after_date": "2026-03-31"},
-          {"label": "100 Miler",    "price": 225, "after": 275, "after_date": "2026-03-31"},
-          {"label": "100K",         "price": 175, "after": 200, "after_date": "2026-03-31"},
-          {"label": "50 Miler",     "price": 120, "after": 150, "after_date": "2026-03-31"},
-          {"label": "50K (Day)",    "price": 95,  "after": 115, "after_date": "2026-03-31"},
-          {"label": "50K (Night)",  "price": 95,  "after": 115, "after_date": "2026-03-31"},
-          {"label": "10 Miler",     "price": 45,  "after": 55,  "after_date": "2026-03-31"},
-          {"label": "Night 10M",    "price": 45,  "after": 55,  "after_date": "2026-03-31"}
+          {
+            "label": "150 Miler",
+            "price": 300,
+            "after": 350,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "100 Miler",
+            "price": 225,
+            "after": 275,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "100K",
+            "price": 175,
+            "after": 200,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "50 Miler",
+            "price": 120,
+            "after": 150,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "50K (Day)",
+            "price": 95,
+            "after": 115,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "50K (Night)",
+            "price": 95,
+            "after": 115,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "10 Miler",
+            "price": 45,
+            "after": 55,
+            "after_date": "2026-03-31"
+          },
+          {
+            "label": "Night 10M",
+            "price": 45,
+            "after": 55,
+            "after_date": "2026-03-31"
+          }
         ]
       },
-      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339"
+      "results_group_url": "https://ultrasignup.com/groups.aspx?gid=339",
+      "tagline": "The flagship. Four days. Eight distances.",
+      "date_end_iso": "2026-10-12",
+      "results_url": "https://ultrasignup.com/results_event.aspx?did=134293",
+      "next_edition": null,
+      "image": "/assets/img/teslahertz-hero.jpg",
+      "region": "NY"
     },
     "racetheghost": {
       "slug": "racetheghost",
       "name": "Race the Ghost",
-      "date": "Fall 2026",
-      "date_iso": null,
-      "date_short": "Fall 2026",
-      "location": "TBA",
-      "distances": ["TBA"],
-      "distances_display": "Distances TBA",
-      "status": "upcoming",
-      "status_text": "Registration opens in a few weeks",
-      "registration_url": null,
-      "registration_opens": "2026-05-01",
+      "date": "October 30, 2026",
+      "date_iso": "2026-10-30",
+      "date_short": "Oct 30, 2026",
+      "location": "Dryden, NY",
+      "distances": [
+        "5K"
+      ],
+      "distances_display": "5K · 5 PM start",
+      "status": "open",
+      "status_text": "Registration open",
+      "registration_url": "https://raceroster.com/events/2026/140078/race-the-ghost",
+      "registration_opens": null,
       "pricing": null,
-      "results_group_url": null
+      "results_group_url": null,
+      "date_end_iso": null,
+      "region": "NY",
+      "tagline": "Halloween 5K on the Dryden Rail Trail. Costumes encouraged.",
+      "results_url": null,
+      "next_edition": null,
+      "image": null
     }
   }
 }

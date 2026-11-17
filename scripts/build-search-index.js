@@ -32,7 +32,7 @@ const PAGES = [
   { file: 'races/watergap.html',     label: 'Water Gap',      url: '/races/watergap',     slug: 'watergap'     },
   { file: 'races/racetheghost.html', label: 'Race the Ghost', url: '/races/racetheghost', slug: 'racetheghost' },
   // General pages
-  { file: 'timing.html',    label: 'Timing Services', url: '/timing',    slug: null },
+  { file: 'timing/index.html', label: 'Timing Services', url: '/timing/', slug: null },
   { file: 'volunteer.html', label: 'Volunteering',    url: '/volunteer', slug: null },
   { file: 'about.html',     label: 'About',           url: '/about',     slug: null },
   { file: 'index.html',     label: 'Home',            url: '/',          slug: null },

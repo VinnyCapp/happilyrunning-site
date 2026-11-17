@@ -652,15 +652,25 @@
   {
     "id": "watergap-6",
     "title": "Race Day Schedule",
-    "body": "7:00 AM 50K packet pickup 8:00 AM 50K start 9:30 AM 25K packet pickup 10:30 AM 25K start 4:30 PM Course cut-off Aid Stations Three aid stations on the course. Standard ultra fare — drinks, snacks, plus some Huma gels. Gel selection is limited since everyone prefers different brands, but there'll be enough.",
+    "body": "7:00 AM 50K packet pickup 8:00 AM 50K start 9:30 AM 25K packet pickup 10:30 AM 25K start 4:30 PM Course cut-off Live Tracking & Runner Alerts Follow every runner in real time on race day — splits at both timing mats, the finish, and the course map. Family and crew can get a text, WhatsApp or email the moment their runner comes through.",
     "source_label": "Water Gap",
     "source_url": "/races/watergap",
     "race_slug": "watergap",
     "type": "section",
-    "_search": "race day schedule 7:00 am 50k packet pickup 8:00 am 50k start 9:30 am 25k packet pickup 10:30 am 25k start 4:30 pm course cut-off aid stations three aid stations on the course. standard ultra fare — drinks, snacks, plus some huma gels. gel selection is limited since everyone prefers different brands, but there'll be enough."
+    "_search": "race day schedule 7:00 am 50k packet pickup 8:00 am 50k start 9:30 am 25k packet pickup 10:30 am 25k start 4:30 pm course cut-off live tracking & runner alerts follow every runner in real time on race day — splits at both timing mats, the finish, and the course map. family and crew can get a text, whatsapp or email the moment their runner comes through."
   },
   {
     "id": "watergap-7",
+    "title": "Aid Stations",
+    "body": "Three aid stations on the course. Standard ultra fare — drinks, snacks, plus some Huma gels. Gel selection is limited since everyone prefers different brands, but there'll be enough.",
+    "source_label": "Water Gap",
+    "source_url": "/races/watergap",
+    "race_slug": "watergap",
+    "type": "section",
+    "_search": "aid stations three aid stations on the course. standard ultra fare — drinks, snacks, plus some huma gels. gel selection is limited since everyone prefers different brands, but there'll be enough."
+  },
+  {
+    "id": "watergap-8",
     "title": "Race Day Map",
     "body": "All the pins you need — aid stations, parking, turnarounds. Open in Google Maps for navigation.",
     "source_label": "Water Gap",
@@ -670,7 +680,7 @@
     "_search": "race day map all the pins you need — aid stations, parking, turnarounds. open in google maps for navigation."
   },
   {
-    "id": "watergap-8",
+    "id": "watergap-9",
     "title": "Drop Bags",
     "body": "50K runners can drop bags at Bushkill Access — accessed at miles 8.5 and 22.9. Mark them with your bib number and last name. Drop them in the marked bins at Smithfield Beach before the 50K start.",
     "source_label": "Water Gap",
@@ -680,7 +690,7 @@
     "_search": "drop bags 50k runners can drop bags at bushkill access — accessed at miles 8.5 and 22.9. mark them with your bib number and last name. drop them in the marked bins at smithfield beach before the 50k start."
   },
   {
-    "id": "watergap-9",
+    "id": "watergap-10",
     "title": "Bathrooms",
     "body": "Smithfield Beach (start/finish) has pit toilets and usually proper bathrooms — portos otherwise. Eshback Access also has pit toilets. Bring your own TP and respect the trail.",
     "source_label": "Water Gap",
@@ -690,7 +700,7 @@
     "_search": "bathrooms smithfield beach (start/finish) has pit toilets and usually proper bathrooms — portos otherwise. eshback access also has pit toilets. bring your own tp and respect the trail."
   },
   {
-    "id": "watergap-10",
+    "id": "watergap-11",
     "title": "Post-Race",
     "body": "We're cooking — tacos (chicken or tofu), potatoes, black bean salad. Results posted by Sunday night, usually sooner.",
     "source_label": "Water Gap",
@@ -700,7 +710,7 @@
     "_search": "post-race we're cooking — tacos (chicken or tofu), potatoes, black bean salad. results posted by sunday night, usually sooner."
   },
   {
-    "id": "watergap-11",
+    "id": "watergap-12",
     "title": "What You Get",
     "body": "Entry covers event production, a unique finisher's gift, post-race food, and an event T (sizes guaranteed if you register before September 1). Five dollars of every entry goes back to the folks who maintain the trails we're using.",
     "source_label": "Water Gap",
@@ -710,7 +720,7 @@
     "_search": "what you get entry covers event production, a unique finisher's gift, post-race food, and an event t (sizes guaranteed if you register before september 1). five dollars of every entry goes back to the folks who maintain the trails we're using."
   },
   {
-    "id": "watergap-15",
+    "id": "watergap-16",
     "title": "When can I pick up my bib?",
     "body": "Race morning — 7 AM for 50K, 9:30 AM for 25K. No pre-race pickup this year.",
     "source_label": "Water Gap",
@@ -720,7 +730,7 @@
     "_search": "when can i pick up my bib? race morning — 7 am for 50k, 9:30 am for 25k. no pre-race pickup this year."
   },
   {
-    "id": "watergap-16",
+    "id": "watergap-17",
     "title": "Do you offer race-day drop-downs?",
     "body": "Yes. If you drop from 50K to 25K at the turnaround, you'll get an unofficial 25K time. Let the aid station captain know.",
     "source_label": "Water Gap",
@@ -730,7 +740,7 @@
     "_search": "do you offer race-day drop-downs? yes. if you drop from 50k to 25k at the turnaround, you'll get an unofficial 25k time. let the aid station captain know."
   },
   {
-    "id": "watergap-17",
+    "id": "watergap-18",
     "title": "What's the deal with bathrooms on course?",
     "body": "Pit toilets or portos at the aid stations and the start/finish. Bring your own TP and respect the trail.",
     "source_label": "Water Gap",
@@ -740,14 +750,14 @@
     "_search": "what's the deal with bathrooms on course? pit toilets or portos at the aid stations and the start/finish. bring your own tp and respect the trail."
   },
   {
-    "id": "watergap-18",
+    "id": "watergap-19",
     "title": "Can I pick up someone else's bib?",
-    "body": "Yes — but you need their printed and signed waiver . Not a copy, not a screenshot, not a photo. Physical signed paper only.",
+    "body": "No. Every runner picks up their own bib on race morning, in person. You'll also need to have signed your waiver — sign it online here .",
     "source_label": "Water Gap",
     "source_url": "/races/watergap",
     "race_slug": "watergap",
     "type": "details",
-    "_search": "can i pick up someone else's bib? yes — but you need their printed and signed waiver . not a copy, not a screenshot, not a photo. physical signed paper only."
+    "_search": "can i pick up someone else's bib? no. every runner picks up their own bib on race morning, in person. you'll also need to have signed your waiver — sign it online here ."
   },
   {
     "id": "racetheghost-0",
@@ -782,12 +792,12 @@
   {
     "id": "racetheghost-3",
     "title": "When",
-    "body": "Halloween weekend 2026. Exact date and start time coming soon.",
+    "body": "Friday, October 30, 2026. Race starts at 5 PM.",
     "source_label": "Race the Ghost",
     "source_url": "/races/racetheghost",
     "race_slug": "racetheghost",
     "type": "section",
-    "_search": "when halloween weekend 2026. exact date and start time coming soon."
+    "_search": "when friday, october 30, 2026. race starts at 5 pm."
   },
   {
     "id": "racetheghost-4",
@@ -802,102 +812,172 @@
   {
     "id": "racetheghost-5",
     "title": "Registration",
-    "body": "Opens soon. Get on the list and we'll email you the moment it goes live.",
+    "body": "Registration is open on Race Roster. Sign up here →",
     "source_label": "Race the Ghost",
     "source_url": "/races/racetheghost",
     "race_slug": "racetheghost",
     "type": "section",
-    "_search": "registration opens soon. get on the list and we'll email you the moment it goes live."
+    "_search": "registration registration is open on race roster. sign up here →"
   },
   {
-    "id": "timing-html-0",
-    "title": "Everything you need. Nothing you don't.",
-    "body": "Chip Timing ChronoTrack RFID timing — the industry standard. Disposable bib chips, reusable shoe chips, or both. Net times, gun times, splits, age groups, team scoring — all handled.",
+    "id": "timing-index-html-0",
+    "title": "Three ways we work with race directors.",
+    "body": "Race timing Accurate RFID chip timing and fast, public results for your event.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "everything you need. nothing you don't. chip timing chronotrack rfid timing — the industry standard. disposable bib chips, reusable shoe chips, or both. net times, gun times, splits, age groups, team scoring — all handled."
+    "_search": "three ways we work with race directors. race timing accurate rfid chip timing and fast, public results for your event."
   },
   {
-    "id": "timing-html-1",
-    "title": "Live Results",
-    "body": "Real-time results posted as runners cross the mat. Web dashboard, SMS alerts for family and crew, and push-to-social integrations. Runners see their time before they're back at their car.",
+    "id": "timing-index-html-1",
+    "title": "Event production",
+    "body": "We plan and run the whole event, or the parts you don't want to handle yourself.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "live results real-time results posted as runners cross the mat. web dashboard, sms alerts for family and crew, and push-to-social integrations. runners see their time before they're back at their car."
+    "_search": "event production we plan and run the whole event, or the parts you don't want to handle yourself."
   },
   {
-    "id": "timing-html-2",
-    "title": "Custom Bibs",
-    "body": "Full-color bib printing with your event logo, sponsors, and runner-specific info (name, distance, corral). Waterproof, tear-resistant, RFID-embedded.",
+    "id": "timing-index-html-2",
+    "title": "Consulting",
+    "body": "Advice for race directors who want to run their own event well.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "custom bibs full-color bib printing with your event logo, sponsors, and runner-specific info (name, distance, corral). waterproof, tear-resistant, rfid-embedded."
+    "_search": "consulting advice for race directors who want to run their own event well."
   },
   {
-    "id": "timing-html-3",
-    "title": "Registration Support",
-    "body": "We work with every major platform — UltraSignup, RunSignUp, RaceRoster, OpenSplitTime, and more. You pick what fits your event; we handle the data pipeline.",
+    "id": "timing-index-html-3",
+    "title": "Any size of event. The help fits the event.",
+    "body": "We work with events of any size, from a first-year charity 5K to a multi-day 150-mile ultra. What that help looks like depends on what your event needs:",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "registration support we work with every major platform — ultrasignup, runsignup, raceroster, opensplittime, and more. you pick what fits your event; we handle the data pipeline."
+    "_search": "any size of event. the help fits the event. we work with events of any size, from a first-year charity 5k to a multi-day 150-mile ultra. what that help looks like depends on what your event needs:"
   },
   {
-    "id": "timing-html-4",
-    "title": "Rentals & Consulting",
-    "body": "Mats, readers, arches, clocks — for rent if you'd rather run your own timing. Consulting on course setup, permitting, insurance, safety — whatever you're stuck on.",
+    "id": "timing-index-html-4",
+    "title": "Where we work.",
+    "body": "Our home region is New York, New Jersey, Pennsylvania and Connecticut. We are based in Dryden, NY, in the Finger Lakes, and regularly work events from Central and Western New York to Long Island. For larger events we travel nationally.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "rentals & consulting mats, readers, arches, clocks — for rent if you'd rather run your own timing. consulting on course setup, permitting, insurance, safety — whatever you're stuck on."
+    "_search": "where we work. our home region is new york, new jersey, pennsylvania and connecticut. we are based in dryden, ny, in the finger lakes, and regularly work events from central and western new york to long island. for larger events we travel nationally."
   },
   {
-    "id": "timing-html-5",
-    "title": "Full Production",
-    "body": "Need the whole thing? We plan, permit, staff, run, and close out events from 50 to 10,000 runners. Sponsorship support included — you focus on your cause, we handle the race.",
+    "id": "timing-index-html-5",
+    "title": "Every event is quoted individually.",
+    "body": "Race timing and production costs depend on the event. The main factors in a quote are:",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "full production need the whole thing? we plan, permit, staff, run, and close out events from 50 to 10,000 runners. sponsorship support included — you focus on your cause, we handle the race."
+    "_search": "every event is quoted individually. race timing and production costs depend on the event. the main factors in a quote are:"
   },
   {
-    "id": "timing-html-6",
-    "title": "Want to make your race stand out?",
-    "body": "Let us build you a custom results page, live tracker, or runner portal. Designed for your race. Branded for your sponsors. Engineered by people who write software when they're not out timing events.",
-    "source_label": "Timing Services",
-    "source_url": "/timing",
-    "race_slug": null,
-    "type": "section",
-    "_search": "want to make your race stand out? let us build you a custom results page, live tracker, or runner portal. designed for your race. branded for your sponsors. engineered by people who write software when they're not out timing events."
-  },
-  {
-    "id": "timing-html-7",
+    "id": "timing-index-html-6",
     "title": "Runner-built. Finish-line proven.",
-    "body": "We've been on both sides of the timing mat — as race directors, as timers, as runners. That's why the live results come up fast and accurate, the bibs don't peel off in the rain, and the volunteers know what to shout when someone crosses.",
+    "body": "We've been on both sides of the timing mat: as race directors, as timers and as runners. We've timed and produced events for 50 runners and for 10,000.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "runner-built. finish-line proven. we've been on both sides of the timing mat — as race directors, as timers, as runners. that's why the live results come up fast and accurate, the bibs don't peel off in the rain, and the volunteers know what to shout when someone crosses."
+    "_search": "runner-built. finish-line proven. we've been on both sides of the timing mat: as race directors, as timers and as runners. we've timed and produced events for 50 runners and for 10,000."
   },
   {
-    "id": "timing-html-8",
-    "title": "Races across the Northeast have trusted us with their finish lines.",
-    "body": "Let's talk Have an event you need timed? Send us the date, distance, expected field size, and whatever else you know. We'll come back with a quote and ideas you hadn't thought of.",
+    "id": "timing-index-html-7",
+    "title": "Local races and organizations.",
+    "body": "Mike's Hike Marcie Mazzola Foundation Red Newt Racing Jones Memorial Hospital Ithaca Children's Garden Miles for Migraine Our team has also worked on events for: Event 360 Redpoint Productions HYROX The North Face Capital One Phish Vinny previously served as Director of Event Management at Spartan Race.",
     "source_label": "Timing Services",
-    "source_url": "/timing",
+    "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "races across the northeast have trusted us with their finish lines. let's talk have an event you need timed? send us the date, distance, expected field size, and whatever else you know. we'll come back with a quote and ideas you hadn't thought of."
+    "_search": "local races and organizations. mike's hike marcie mazzola foundation red newt racing jones memorial hospital ithaca children's garden miles for migraine our team has also worked on events for: event 360 redpoint productions hyrox the north face capital one phish vinny previously served as director of event management at spartan race."
+  },
+  {
+    "id": "timing-index-html-8",
+    "title": "Race timing questions.",
+    "body": "Do you time small races? Yes. We time races of every size, including first-year 5Ks with a few dozen runners. Small events get the same chip timing and live results as our largest ultras.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "race timing questions. do you time small races? yes. we time races of every size, including first-year 5ks with a few dozen runners. small events get the same chip timing and live results as our largest ultras."
+  },
+  {
+    "id": "timing-index-html-9",
+    "title": "Do you travel?",
+    "body": "Yes. Our home region is New York, New Jersey, Pennsylvania and Connecticut, and we travel nationally for larger events. Travel is one of the factors in your quote.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "do you travel? yes. our home region is new york, new jersey, pennsylvania and connecticut, and we travel nationally for larger events. travel is one of the factors in your quote."
+  },
+  {
+    "id": "timing-index-html-10",
+    "title": "What does race timing cost?",
+    "body": "Every event is quoted individually. The price depends on field size, number of timing points, distance and duration, travel, on-site or remote support, and production scope. Send us your event details and we will send a quote.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "what does race timing cost? every event is quoted individually. the price depends on field size, number of timing points, distance and duration, travel, on-site or remote support, and production scope. send us your event details and we will send a quote."
+  },
+  {
+    "id": "timing-index-html-11",
+    "title": "Which registration platforms do you work with?",
+    "body": "We work with any registration platform, including UltraSignup, RunSignup, Race Roster and OpenSplitTime. We import your participant list for timing and post final results back to your platform.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "which registration platforms do you work with? we work with any registration platform, including ultrasignup, runsignup, race roster and opensplittime. we import your participant list for timing and post final results back to your platform."
+  },
+  {
+    "id": "timing-index-html-12",
+    "title": "Do you provide live results?",
+    "body": "Yes. Results go online live as runners cross the timing mats, so runners, crews and families can follow along. We can also build a branded live-results page and text alerts for your event.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "do you provide live results? yes. results go online live as runners cross the timing mats, so runners, crews and families can follow along. we can also build a branded live-results page and text alerts for your event."
+  },
+  {
+    "id": "timing-index-html-13",
+    "title": "Can you time a 100-mile or multi-day event?",
+    "body": "Yes. We time 100-mile and multi-day ultras, including our own Tesla Hertz Run with distances up to 150 miles over four days. Our timing system handles overnight splits, loop counts and date changes.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "can you time a 100-mile or multi-day event? yes. we time 100-mile and multi-day ultras, including our own tesla hertz run with distances up to 150 miles over four days. our timing system handles overnight splits, loop counts and date changes."
+  },
+  {
+    "id": "timing-index-html-14",
+    "title": "Can you help if I have my own timing gear?",
+    "body": "Yes. We can consult on setup, train your team, run your results remotely, or add our equipment where you need more timing points. If your setup needs something we don't offer, we will refer you to someone who can help.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "can you help if i have my own timing gear? yes. we can consult on setup, train your team, run your results remotely, or add our equipment where you need more timing points. if your setup needs something we don't offer, we will refer you to someone who can help."
+  },
+  {
+    "id": "timing-index-html-15",
+    "title": "Have an event you need timed?",
+    "body": "Send us the date, location, distances and expected field size, plus anything else you know. We'll come back with a quote.",
+    "source_label": "Timing Services",
+    "source_url": "/timing/",
+    "race_slug": null,
+    "type": "section",
+    "_search": "have an event you need timed? send us the date, location, distances and expected field size, plus anything else you know. we'll come back with a quote."
   },
   {
     "id": "volunteer-html-0",
@@ -971,13 +1051,13 @@
   },
   {
     "id": "index-html-1",
-    "title": "Virgil Crest",
-    "body": "A legendary course. A new path. 100M · 100M Relay · 50M · 50K Registration open Sept 26, 2026 · Milford, PA Water Gap 50K & Half Scenic, flat-ish, PR-ready. The McDade Trail through the Gap. 50K · 25K Registration open Fall 2026 Race the Ghost Returning this fall — new details drop soon. More info coming Registration opens in a few weeks Oct 9–12, 2026 · Rocky Point, NY Tesla Hertz Run The flagship. Four days. Eight distances. 150M · 100M · 100K · 50M · 50K day/night · 10M day/night Registration open Apr 17, 2027 · East Islip, NY Shore2Shore North shore to south shore, on the Greenbelt. 50K · ",
+    "title": "Shore2Shore",
+    "body": "North shore to south shore, on the Greenbelt. 50K · 25K Registration open Oct 30, 2026 · Dryden, NY Race the Ghost Halloween 5K on the Dryden Rail Trail. Costumes encouraged. 5K · 5 PM start 2026 race complete 2027 date TBA Race info → Oct 9–12, 2026 · Rocky Point, NY Tesla Hertz Run The flagship. Four days. Eight distances. 150M · 100M · 100K · 50M · 50K day/night · 10M day/night 2026 results → 2027 date TBA Race info → Sept 26, 2026 · Milford, PA Water Gap 50K & Half Scenic, flat-ish, PR-ready. The McDade Trail through the Gap. 50K · 25K 2026 results → 2027 date TBA Race info → Sept 12, 2026",
     "source_label": "Home",
     "source_url": "/",
     "race_slug": null,
     "type": "section",
-    "_search": "virgil crest a legendary course. a new path. 100m · 100m relay · 50m · 50k registration open sept 26, 2026 · milford, pa water gap 50k & half scenic, flat-ish, pr-ready. the mcdade trail through the gap. 50k · 25k registration open fall 2026 race the ghost returning this fall — new details drop soon. more info coming registration opens in a few weeks oct 9–12, 2026 · rocky point, ny tesla hertz run the flagship. four days. eight distances. 150m · 100m · 100k · 50m · 50k day/night · 10m day/night registration open apr 17, 2027 · east islip, ny shore2shore north shore to south shore, on the greenbelt. 50k · 25k registration opens sept 1, 2026 timing & event services thousands of finishers timed. yours could be next. rfid chip timing. any distance. any size. any registration platform."
+    "_search": "shore2shore north shore to south shore, on the greenbelt. 50k · 25k registration open oct 30, 2026 · dryden, ny race the ghost halloween 5k on the dryden rail trail. costumes encouraged. 5k · 5 pm start 2026 race complete 2027 date tba race info → oct 9–12, 2026 · rocky point, ny tesla hertz run the flagship. four days. eight distances. 150m · 100m · 100k · 50m · 50k day/night · 10m day/night 2026 results → 2027 date tba race info → sept 26, 2026 · milford, pa water gap 50k & half scenic, flat-ish, pr-ready. the mcdade trail through the gap. 50k · 25k 2026 results → 2027 date tba race info → sept 12, 2026 · cortland, ny virgil crest ultras a legendary course. a new path. 100m · 100m relay · 50m · 50k 2026 results → 2027 date tba race info → timing & event services thousands of finishers timed. yours could be next. rfid chip timing. any distance. any size. any registration platform."
   },
   {
     "id": "index-html-2",
