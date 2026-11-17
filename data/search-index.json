@@ -892,25 +892,15 @@
   {
     "id": "timing-index-html-7",
     "title": "Local races and organizations.",
-    "body": "Mike's Hike Marcie Mazzola Foundation Red Newt Racing Jones Memorial Hospital Ithaca Children's Garden Miles for Migraine Our team has also worked on events for: Event 360 Redpoint Productions HYROX The North Face Capital One Phish Vinny previously served as Director of Event Management at Spartan Race.",
+    "body": "Mike's Hike Marcie Mazzola Foundation Red Newt Racing Jones Memorial Hospital Ithaca Children's Garden Miles for Migraine Our team has also worked on events for: Event 360 Redpoint Productions HYROX The North Face Capital One Phish Spartan Race FAQ Race timing questions. Do you time small races? Yes. We time races of every size, including first-year 5Ks with a few dozen runners. Small events get the same chip timing and live results as our largest ultras.",
     "source_label": "Timing Services",
     "source_url": "/timing/",
     "race_slug": null,
     "type": "section",
-    "_search": "local races and organizations. mike's hike marcie mazzola foundation red newt racing jones memorial hospital ithaca children's garden miles for migraine our team has also worked on events for: event 360 redpoint productions hyrox the north face capital one phish vinny previously served as director of event management at spartan race."
+    "_search": "local races and organizations. mike's hike marcie mazzola foundation red newt racing jones memorial hospital ithaca children's garden miles for migraine our team has also worked on events for: event 360 redpoint productions hyrox the north face capital one phish spartan race faq race timing questions. do you time small races? yes. we time races of every size, including first-year 5ks with a few dozen runners. small events get the same chip timing and live results as our largest ultras."
   },
   {
     "id": "timing-index-html-8",
-    "title": "Race timing questions.",
-    "body": "Do you time small races? Yes. We time races of every size, including first-year 5Ks with a few dozen runners. Small events get the same chip timing and live results as our largest ultras.",
-    "source_label": "Timing Services",
-    "source_url": "/timing/",
-    "race_slug": null,
-    "type": "section",
-    "_search": "race timing questions. do you time small races? yes. we time races of every size, including first-year 5ks with a few dozen runners. small events get the same chip timing and live results as our largest ultras."
-  },
-  {
-    "id": "timing-index-html-9",
     "title": "Do you travel?",
     "body": "Yes. Our home region is New York, New Jersey, Pennsylvania and Connecticut, and we travel nationally for larger events. Travel is one of the factors in your quote.",
     "source_label": "Timing Services",
@@ -920,7 +910,7 @@
     "_search": "do you travel? yes. our home region is new york, new jersey, pennsylvania and connecticut, and we travel nationally for larger events. travel is one of the factors in your quote."
   },
   {
-    "id": "timing-index-html-10",
+    "id": "timing-index-html-9",
     "title": "What does race timing cost?",
     "body": "Every race is different, and because of that, so are our prices. The price depends on field size, number of timing points, distance and duration, travel, on-site or remote support, and production scope. We can usually give you a fairly accurate quote after a few simple questions.",
     "source_label": "Timing Services",
@@ -930,7 +920,7 @@
     "_search": "what does race timing cost? every race is different, and because of that, so are our prices. the price depends on field size, number of timing points, distance and duration, travel, on-site or remote support, and production scope. we can usually give you a fairly accurate quote after a few simple questions."
   },
   {
-    "id": "timing-index-html-11",
+    "id": "timing-index-html-10",
     "title": "Which registration platforms do you work with?",
     "body": "We work with any registration platform, including UltraSignup, RunSignup, Race Roster and OpenSplitTime. We import your participant list for timing and post final results back to your platform.",
     "source_label": "Timing Services",
@@ -940,7 +930,7 @@
     "_search": "which registration platforms do you work with? we work with any registration platform, including ultrasignup, runsignup, race roster and opensplittime. we import your participant list for timing and post final results back to your platform."
   },
   {
-    "id": "timing-index-html-12",
+    "id": "timing-index-html-11",
     "title": "Do you provide live results?",
     "body": "Yes. Results go online live as runners cross the timing mats, so runners, crews and families can follow along. We can also build a branded live-results page and text alerts for your event.",
     "source_label": "Timing Services",
@@ -950,7 +940,7 @@
     "_search": "do you provide live results? yes. results go online live as runners cross the timing mats, so runners, crews and families can follow along. we can also build a branded live-results page and text alerts for your event."
   },
   {
-    "id": "timing-index-html-13",
+    "id": "timing-index-html-12",
     "title": "Can you time a 100-mile or multi-day event?",
     "body": "Yes. We time 100-mile and multi-day ultras, including our own Tesla Hertz Run with distances up to 150 miles over four days. Our timing system handles overnight splits, loop counts and date changes.",
     "source_label": "Timing Services",
@@ -960,7 +950,7 @@
     "_search": "can you time a 100-mile or multi-day event? yes. we time 100-mile and multi-day ultras, including our own tesla hertz run with distances up to 150 miles over four days. our timing system handles overnight splits, loop counts and date changes."
   },
   {
-    "id": "timing-index-html-14",
+    "id": "timing-index-html-13",
     "title": "Can you help if I have my own timing gear?",
     "body": "Yes. We can consult on setup, train your team, run your results remotely, or add our equipment where you need more timing points. If your setup needs something we don't offer, we will refer you to someone who can help.",
     "source_label": "Timing Services",
@@ -970,7 +960,7 @@
     "_search": "can you help if i have my own timing gear? yes. we can consult on setup, train your team, run your results remotely, or add our equipment where you need more timing points. if your setup needs something we don't offer, we will refer you to someone who can help."
   },
   {
-    "id": "timing-index-html-15",
+    "id": "timing-index-html-14",
     "title": "Have an event you need timed?",
     "body": "Send us the date, location, distances and expected field size, plus anything else you know. We'll come back with a quote.",
     "source_label": "Timing Services",
